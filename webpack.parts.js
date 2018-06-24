@@ -123,7 +123,7 @@ exports.loadCSS = ({
   module: {
     rules: [
       {
-        test: '/**/*.sass',
+        test: /\.sass$/,
 
         include,
         exclude,
