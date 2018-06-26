@@ -1,0 +1,17 @@
+.header {
+  border-top: 10px solid $companyColor;
+  padding-top: 20px;
+  &__text {
+    font-family: 'Arial Rounded MT Bold', 'Arial Rounded MT';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: $companyColor;
+    text-align: right;
+  }
+  &__logo {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}

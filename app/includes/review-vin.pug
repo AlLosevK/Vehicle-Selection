@@ -1,0 +1,43 @@
+.container.review-vin
+  h1.review-vin__title Review Vehicle Details
+  .row.justify-content-md-center
+    form.review-vin__update.col-12.row(action="" method="post")
+      label.review-vin__update-descr.col-4 VIN (17 Digits):
+        input.review-vin__update-number(type="text")
+      label.review-vin__update-descr.col-4 Build Year
+        select.review-vin__update-year(name="year[]")
+          option 2018
+          option 2017
+          option 2016
+          option 2015
+          option 2014
+          option 2013
+          option 2012
+          option 2011
+          option 2010
+          option 2009
+          option 1998
+      input.review-vin__submit.col-4(type="button" value="Update")
+    .row.col-12
+      .review-vin__details.col-12
+        h1.review-vin__details-title Based on the VIN the vehicle has been identified as:
+        .container.col-12.info
+          .row.info__row
+            span.col-2.info__row-arg Make:
+            span.col-10.info__row-value Volkswagen
+          .row.info__row
+            span.col-2.info__row-arg Model:
+            span.col-10.info__row-value Golf R Wolfsburg Edition AU MY16
+          .row.info__row
+            span.col-2.info__row-arg Body:
+            span.col-10.info__row-value 4D Wagon 
+          .row.info__row
+            span.col-2.info__row-arg Engine:
+            span.col-10.info__row-value Turbo 4 1984 cc TMPFI 
+          .row.info__row
+            span.col-2.info__row-arg Transmission:
+            span.col-10.info__row-value 6 Sp Auto Direct Shift
+    .row.col-10.page-nav.justify-content-center
+      a.page-nav__back.col-5 Select my vehicle again (start over)
+      span.page-nav__text.col-2 or
+      a.page-nav__next.col-5 These details are correct (continue)

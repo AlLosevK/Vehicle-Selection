@@ -1,0 +1,36 @@
+.nav {
+  text-align: center;
+  &-item {
+    border-bottom: 5px solid $inactiveColor;
+    flex-basis: 24.5%;
+    margin: 0 2px;
+    &-content {
+      font-family: 'Avenir Heavy';
+      font-weight: 400;
+      font-style: normal;
+      font-size: 13px;
+      padding: 0 1px;
+      color: $inactiveColor;
+    }
+  }
+}
+
+.page-nav {
+  &__back,
+  &__next {
+    display: inline-block;
+    background-color: $backNavColor;
+    border: 1px solid $inactiveColor;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Avenir Heavy';
+  }
+  &__text {
+    max-width: 5%;
+    padding: 0 5px;
+    text-align: center;
+  }
+  &__next {
+    background-color: $nextNavColor;
+  }
+}

@@ -1,0 +1,25 @@
+@import 'fonts';
+@import 'common/vars';
+@import 'common/header';
+@import 'common/nav';
+@import 'common/homepage';
+@import 'common/review-vin';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1 {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  font-kerning: normal;
+}
+
+body {
+  font-family: 'Avenir Light', sans-serif;
+}
