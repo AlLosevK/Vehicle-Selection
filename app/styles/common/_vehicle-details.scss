@@ -1,0 +1,56 @@
+.vehicle-details {
+  padding: 30px 5px;
+  vertical-align: middle;
+  &-title,
+  &-descr {
+    display: block;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: left;
+    margin: 0px auto 20px;
+    padding: 0;
+  }
+  &-descr {
+    font-size: 14px;
+    margin: 20px auto;
+  }
+  &-state,
+  &-number,
+  &-odometr,
+  &-reg-number,
+  &-reg-exp,
+  &-compliance {
+    display: block;
+    width: 97%;
+    height: 35px;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  &-book,
+  &-history {
+    padding: 0 15px 0 0;
+    &-item {
+      padding: 8px 15px;
+      border: 1px solid $inactiveColor;
+    }
+  }
+}
+
+.details-info {
+  &.row.col-12.justify-content-center {
+    padding: 0 4px;
+  }
+  &-title {
+    margin: 20px 0;
+    padding: 0;
+    display: block;
+  }
+  & .col-6.p0 {
+    &:last-of-type {
+      border-left: 1px solid $inactiveColor;
+      padding-left: 10px;
+    }
+  }
+}
