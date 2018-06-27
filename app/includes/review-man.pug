@@ -1,0 +1,76 @@
+.container.review-man
+  h1.review-man__title Review Vehicle Details
+  .row.justify-content-md-center
+    form.review-man__update.col-12.row(action="" method="post")
+      label.review-man__update-descr.col-1 Build Year
+        select.review-man__update-year(name="year[]")
+          option 2018
+          option 2017
+          option 2016
+          option 2015
+          option 2014
+          option 2013
+          option 2012
+          option 2011
+          option 2010
+          option 2009
+          option 1998
+      label.review-man__update-descr.col-4 Make
+        select.review-man__update-make(name="make[]")
+          option 2018
+          option 2017
+          option 2016
+          option 2015
+          option 2014
+          option 2013
+          option 2012
+          option 2011
+          option 2010
+          option 2009
+          option 1998
+      label.review-man__update-descr.col-4 Model
+        select.review-man__update-model(name="model[]")
+          option 2018
+          option 2017
+          option 2016
+          option 2015
+          option 2014
+          option 2013
+          option 2012
+          option 2011
+          option 2010
+          option 2009
+          option 1998
+      input.review-man__update-submit.col-3(type="submit" value="Update")
+    .row.col-12.review-man__details.justify-content-md-center
+      h1.review-man__details-title.col-12 Select the Variant
+      .col-12.details-info-table.row
+        .col-5.details-info-table__col.details-info-table__col-variant
+          span.details-info-table__col-title Variant
+          span.details-info-table__row AU MY16 ALLTRACK 132 TSI 4D WAGON
+          span.details-info-table__row AU MY15 110 TDI HIGHLINE 5D HATCHBACK
+          span.details-info-table__row AU MY16 R WOLFSBURG EDITION 5D HATCHBACK
+          span.details-info-table__row AU MY16 R WOLFSBURG EDITION 4D WAGON
+        .col-1.details-info-table__col.details-info-table__col-engine
+          span.details-info-table__col-title Engine
+          span.details-info-table__row T4 Cyl 1.8L
+          span.details-info-table__row DT4 Cyl 2.0L
+          span.details-info-table__row T4 Cyl 2.0L
+          span.details-info-table__row T4 Cyl 2.0L
+        .col-4.details-info-table__col.details-info-table__col-transmission
+          span.details-info-table__col-title Transmission
+          span.details-info-table__row 6 SP AUTO DIRECT SHIFT
+          span.details-info-table__row 6 SP AUTO DIRECT SHIFT
+          span.details-info-table__row 6 SP AUTO DIRECT SHIFT
+          span.details-info-table__row 6 SP AUTO DIRECT SHIFT
+        .col-2.details-info-table__col.details-info-table__col-select
+          span.details-info-table__col-title
+          .details-info-table__row
+            input(type="submit" value="Select")
+          .details-info-table__row
+            input(type="submit" value="Select")
+          .details-info-table__row
+            input(type="submit" value="Select")
+          .details-info-table__row
+            input(type="submit" value="Select")
+        

@@ -1,0 +1,52 @@
+.review-man {
+  color: $colorText;
+  padding: 30px 5px;
+  &__title {
+    font-family: 'Avenir Heavy';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin: 10px 0 20px;
+  }
+  &__update {
+    padding: 0 10px;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    &-title,
+    &-descr {
+      display: block;
+      font-family: 'Arial';
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      text-align: left;
+    }
+    &-descr {
+      display: inline-block;
+      font-size: 14px;
+      padding: 0 5px;
+    }
+    &-year,
+    &-make,
+    &-model {
+      display: block;
+      width: 100%;
+      height: 32px;
+    }
+    &-submit {
+      display: inline-block;
+      width: 100%;
+      background-color: rgba(204, 204, 204, 1);
+      border: none;
+      height: 32px;
+      margin-top: 17px;
+    }
+  }
+  &__details {
+    padding: 0 10px;
+    &-title {
+      padding: 0;
+    }
+  }
+}
