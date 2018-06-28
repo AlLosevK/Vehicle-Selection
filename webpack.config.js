@@ -91,7 +91,7 @@ const commonConfig = merge([
   parts.loadFonts({
     include: paths.app,
     options: {
-      name: `${paths.fonts}/[name].[hash:8].[ext]`
+      name: `${paths.fonts}/[name].[ext]`
     }
   })
 ])

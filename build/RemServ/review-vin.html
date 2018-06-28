@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Maxxima</title>
   <link rel="stylesheet" type="text/css" href="styles/bootstrap-grid.min.css">
-  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/1.acda61c1.css" rel="stylesheet">
 </head>
 
 <body class="container">
@@ -33,20 +33,30 @@
         </div>
       </div>
     </nav>
-    <div class="container search">
-      <h1 class="search__title">Search for the vehicle:</h1>
-      <div class="container">
-        <div class="row">
-          <form class="search__vin col-6" action="" method="post">
-            <h3 class="search__vin-title">Use Vehicle VIN:</h3><label class="search__vin-descr">VIN (17 Digits):<input class="search__vin-number" type="text"></label><label class="search__vin-descr">Build Year<select class="search__vin-year" name="year[]"><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>1998</option></select></label><input class="search__submit" type="submit" value="Submit"></form>
-          <form class="search__man col-6" action="" method="post">
-            <h3 class="search__man-title">Use Vehicle Manualy:</h3><label class="search__man-descr">Build Year<select class="search__man-year" name="year[]"><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>1998</option></select></label><label class="search__man-descr">Make<select class="search__man-make" name="make[]"><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>1998</option></select></label><label class="search__man-descr">Model<select class="search__man-model" name="model[]"><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>1998</option></select></label><input class="search__submit" type="submit" value="Submit"></form>
+    <div class="container review-vin">
+      <h1 class="review-vin__title">Review Vehicle Details</h1>
+      <div class="row justify-content-center m0">
+        <form class="review-vin__update col-12 row p0" action="" method="post"><label class="review-vin__update-descr col-4">VIN (17 Digits):<input class="review-vin__update-number" type="text"></label><label class="review-vin__update-descr col-4">Build Year<select class="review-vin__update-year" name="year[]"><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>1998</option></select></label><input class="review-vin__submit col-4" type="button" value="Update"></form>
+        <div class="row col-12 p0 m0">
+          <div class="review-vin__details col-12">
+            <h3 class="review-vin__details-title">Based on the VIN the vehicle has been identified as:</h3>
+            <div class="container col-12 details-info">
+              <div class="row details-info__row"><span class="col-2 details-info__row-arg">Make:</span><span class="col-10 details-info__row-value">Volkswagen</span></div>
+              <div class="row details-info__row"><span class="col-2 details-info__row-arg">Model:</span><span class="col-10 details-info__row-value">Golf R Wolfsburg Edition AU MY16</span></div>
+              <div class="row details-info__row"><span class="col-2 details-info__row-arg">Body:</span><span class="col-10 details-info__row-value">4D Wagon </span></div>
+              <div class="row details-info__row"><span class="col-2 details-info__row-arg">Engine:</span><span class="col-10 details-info__row-value">Turbo 4 1984 cc TMPFI </span></div>
+              <div class="row details-info__row"><span class="col-2 details-info__row-arg">Transmission:</span><span class="col-10 details-info__row-value">6 Sp Auto Direct Shift</span></div>
+            </div>
+          </div>
         </div>
+        <div class="row col-10 page-nav justify-content-center p0"><a class="page-nav__back col-5">Select my vehicle again (start over)</a><span class="page-nav__text col-2">or</span><a class="page-nav__next col-5">These details are correct (continue)</a></div>
       </div>
     </div>
   </main>
+  <script type="text/javascript" src="/scripts/manifest.715eaefd.js"></script>
+  <script type="text/javascript" src="/scripts/main.602cdc1b.js"></script>
 </body>
-<script src="app/scripts/jquery.min.js"></script>
-<script src="app/scripts/bootstrap.bundle.min.js"></script>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/bootstrap.bundle.min.js"></script>
 
 </html>
