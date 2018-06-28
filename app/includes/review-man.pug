@@ -1,7 +1,7 @@
 .container.review-man
   h1.review-man__title Review Vehicle Details
-  .row.justify-content-md-center
-    form.review-man__update.col-12.row(action="" method="post")
+  .row.justify-content-center.p0.m0
+    form.review-man__update.col-12.row.m0.p0(action="" method="post")
       label.review-man__update-descr.col-1 Build Year
         select.review-man__update-year(name="year[]")
           option 2018
@@ -42,9 +42,9 @@
           option 2009
           option 1998
       input.review-man__update-submit.col-3(type="submit" value="Update")
-    .row.col-12.review-man__details.justify-content-md-center
-      h1.review-man__details-title.col-12 Select the Variant
-      .col-12.details-info-table.row
+    .row.col-12.review-man__details.justify-content-center.m0.p0
+      h3.review-man__details-title.col-12 Select the Variant
+      .col-12.details-info-table.row.flex-nowrap.align-items-stretch
         .col-5.details-info-table__col.details-info-table__col-variant
           span.details-info-table__col-title Variant
           span.details-info-table__row AU MY16 ALLTRACK 132 TSI 4D WAGON

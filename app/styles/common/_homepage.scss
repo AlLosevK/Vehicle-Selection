@@ -60,8 +60,10 @@
   }
   &__submit {
     width: 82%;
-    background-color: rgba(204, 204, 204, 1);
     border: none;
     height: 38px;
+    background-color: $companyColor;
+    color: white;
+    border-radius: 10px;
   }
 }

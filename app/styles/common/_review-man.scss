@@ -37,10 +37,18 @@
     &-submit {
       display: inline-block;
       width: 100%;
-      background-color: rgba(204, 204, 204, 1);
       border: none;
       height: 32px;
       margin-top: 17px;
+      background-color: white;
+      border: 2px solid $colorText;
+      border-radius: 10px;
+      &:hover {
+        background-color: $colorText;
+        color: white;
+        transition: all 1s;
+      }
+
     }
   }
   &__details {

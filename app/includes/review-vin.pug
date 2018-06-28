@@ -1,7 +1,7 @@
 .container.review-vin
   h1.review-vin__title Review Vehicle Details
-  .row.justify-content-md-center
-    form.review-vin__update.col-12.row(action="" method="post")
+  .row.justify-content-center.m0
+    form.review-vin__update.col-12.row.p0(action="" method="post")
       label.review-vin__update-descr.col-4 VIN (17 Digits):
         input.review-vin__update-number(type="text")
       label.review-vin__update-descr.col-4 Build Year
@@ -18,9 +18,9 @@
           option 2009
           option 1998
       input.review-vin__submit.col-4(type="button" value="Update")
-    .row.col-12
+    .row.col-12.p0.m0
       .review-vin__details.col-12
-        h1.review-vin__details-title Based on the VIN the vehicle has been identified as:
+        h3.review-vin__details-title Based on the VIN the vehicle has been identified as:
         .container.col-12.details-info
           .row.details-info__row
             span.col-2.details-info__row-arg Make:
@@ -37,7 +37,7 @@
           .row.details-info__row
             span.col-2.details-info__row-arg Transmission:
             span.col-10.details-info__row-value 6 Sp Auto Direct Shift
-    .row.col-10.page-nav.justify-content-center
+    .row.col-10.page-nav.justify-content-center.p0
       a.page-nav__back.col-5 Select my vehicle again (start over)
       span.page-nav__text.col-2 or
       a.page-nav__next.col-5 These details are correct (continue)

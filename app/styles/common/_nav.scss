@@ -19,11 +19,13 @@
   &__back,
   &__next {
     display: inline-block;
-    background-color: $backNavColor;
-    border: 1px solid $inactiveColor;
+    background-color: white;
+    border: 2px solid $companyColor;
+    color: $companyColor;
     padding: 10px 20px;
     text-align: center;
     font-family: 'Avenir Heavy';
+    border-radius: 10px;
   }
   &__text {
     max-width: 5%;
@@ -31,6 +33,15 @@
     text-align: center;
   }
   &__next {
-    background-color: $nextNavColor;
+    background-color: $companyColor;
+    color: white;
   }
+  &__back {
+    &:hover {
+      background-color: $companyColor;
+      color: white;
+      transition: all 1s;
+    }
+  }
+
 }

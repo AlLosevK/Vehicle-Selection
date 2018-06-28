@@ -40,6 +40,15 @@
     border: none;
     height: 32px;
     margin-top: 17px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid $colorText;
+    border-radius: 10px;
+    &:hover {
+      background-color: $colorText;
+      color: white;
+      transition: ALL 1s;
+    }
   }
   & .row .justify-content-md-center {
     margin: 0;

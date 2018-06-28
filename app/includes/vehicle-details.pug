@@ -23,7 +23,7 @@
           span.col-4.details-info__row-arg Build Year:
           span.col-8.details-info__row-value 2015
     .row.col-12.vehicle-details.justify-content-center
-      h1.vehicle-details-title.col-12 Enter Vehicle Details
+      h3.vehicle-details-title.col-12 Enter Vehicle Details
       form.row.col-12.p0.justify-content-center
         .col-6.p0
           label.vehicle-details-descr VIN (17 Digits):
@@ -47,7 +47,7 @@
           label.vehicle-details-descr Registration Number:
             input.vehicle-details-reg-number(type="text")
           label.vehicle-details-descr Registration Expiry:
-            input.vehicle-details-reg-exp(type="date")
+            input.vehicle-details-reg-exp(type="date" value="2018-07-22" min="2018-01-01" max="2018-12-31")
           label.vehicle-details-descr Compliance Date:
             input.vehicle-details-compliance(type="date")
         .col-6.p0

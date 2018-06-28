@@ -170,7 +170,7 @@ const productionConfig = merge([
     include: paths.app,
     use: [parts.autoprefix(), cssPreprocessorLoader],
     options: {
-      filename: `${paths.css}/[name].[contenthash:8].css`,
+      filename: `${paths.css}/[name].[contenthash: 8].css`,
       chunkFilename: `${paths.css}/[id].[contenthash:8].css`
     }
   }),

@@ -67,7 +67,7 @@
     display: block;
   }
   & .col-6.p0 {
-    &:last-of-type {
+    &:last-of-child {
       border-left: 1px solid $inactiveColor;
       padding-left: 10px;
     }

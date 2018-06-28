@@ -8,11 +8,14 @@
 @import 'common/vehicle-details';
 @import 'common/customer-details';
 @import 'common/submit';
+@import 'common/sidebar';
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Avenir Heavy';
+  color: $colorText;
 }
 
 p,
@@ -67,10 +70,15 @@ body {
       display: block;
       border: 1px solid $inactiveColor;
       padding: 10px 5px;
+      height: calc(25% - 10px);
       border-collapse: collapse;
     }
     &__col {
       padding: 0;
+      &-engine {
+        flex: 0 0 auto;
+        min-width: 91px;
+      }
       &-title {
         text-align: center;
         padding: 10px;
@@ -91,6 +99,16 @@ body {
           & input {
             width: 100%;
             height: 25.2px;
+            border: none;
+            background-color: $companyColor;
+            color: #fff;
+            border-radius: 10px;
+            &:hover {
+              background-color: #fff;
+              color: $companyColor;
+              border: 2px solid $companyColor;
+              transition: all 1s;
+            }
           }
         }
       }
