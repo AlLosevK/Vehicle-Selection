@@ -22,7 +22,7 @@
         .row.details-info__row
           span.col-4.details-info__row-arg Build Year:
           span.col-8.details-info__row-value 2015
-    .row.col-12.vehicle-details
+    .row.col-12.vehicle-details.justify-content-center
       h1.vehicle-details-title.col-12 Enter Vehicle Details
       form.row.col-12.p0.justify-content-center
         .col-6.p0
@@ -54,7 +54,7 @@
           .row.justify-content-center.m0
             label.vehicle-details-descr.col-12 Paint Colour:
               input.vehicle-details-reg-number(type="text")
-            span.vehicle-details-descr.col-12 Service Books
+            span.vehicle-details-descr.vehicle-details-descr-out.col-12 Service Books
             .row.vehicle-details-book.col-12
               .col-6.vehicle-details-book-item
                 input#service-book-yes(type="radio" name="service-book" value="yes")
@@ -66,7 +66,7 @@
           .row.m0.justify-content-center
             label.vehicle-details-descr.col-12 Interior Trim / Colour:
               input.vehicle-details-reg-number(type="text")
-            span.vehicle-details-descr.col-12 Service History
+            span.vehicle-details-descr.vehicle-details-descr-out.col-12 Service History
             .row.vehicle-details-history.col-12
               .col-6.vehicle-details-history-item
                 input#service-history-ff(type="radio" name="service-book" value="yes")
@@ -81,7 +81,27 @@
                 input#service-book-none(type="radio" name="service-book" value="no")
                 label(for="service-book-none") None              
         .col-12.p0
+          .row.m0.justify-content-center
+            label.vehicle-details-descr.col-12 Options and/or Accessories:
+              textarea.vehicle-details-accessories.col-12(rows="5" id="accessories" name="accessories")
+            .row.col-12.p0.justify-content-center
+              .row.col-6.p0.justify-content-center
+                span.vehicle-details-descr.col-12 Previous Accident Damage:
+                .row.vehicle-details-damage.col-12
+                  .col-6.vehicle-details-damage-item
+                    input#service-book-yes(type="radio" name="damage" value="yes")
+                    label(for="damage-yes") Yes
+                  .col-6.vehicle-details-damage-item
+                    input#service-book-no(type="radio" name="service-book" value="no")
+                    label(for="damage-no") No
+              .row.vehicle-details-descr.col-6.vehicle-details-damage-descr
+                span.col-12 If Yes, please detail any damage in the Condition box below...
+            .row.col-12.p0
+              label.vehicle-details-descr.vehicle-details-descr-out.col-2(for="accessories") General Condition:
+              span.vehicle-details-descr.vehicle-details-descr-damage.col-10 ie. Dents, Hail Damage, Body Scratches, Interior Damage, Tyre Depths, Previous Accident History
+            textarea.vehicle-details-damage.col-12(rows="5" id="accessories" name="accessories")
+            
     .row.col-10.page-nav.justify-content-center
       a.page-nav__back.col-5 Select my vehicle again (start over)
       span.page-nav__text.col-2 or
-      a.page-nav__next.col-5 These details are correct (continue)
+      a.page-nav__next.col-5 Submit for Valuation (End)

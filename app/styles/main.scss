@@ -6,6 +6,8 @@
 @import 'common/review-vin';
 @import 'common/review-man';
 @import 'common/vehicle-details';
+@import 'common/customer-details';
+@import 'common/submit';
 
 * {
   margin: 0;
@@ -32,6 +34,10 @@ body {
 
 .m0 {
   margin: 0;
+}
+
+.bdb {
+  border-bottom: 1px solid $inactiveColor;
 }
 
 .details-info {
