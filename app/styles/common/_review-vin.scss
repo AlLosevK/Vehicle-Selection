@@ -1,4 +1,5 @@
-.review-vin {
+.review-vin,
+.admin-vehicle {
   color: $colorText;
   padding: 30px 5px;
   &__title {
@@ -53,9 +54,6 @@
   & .row .justify-content-md-center {
     margin: 0;
   }
-  & .col-4 {
-    padding: 0 5px;
-  }
   &__details {
     padding: 0;
     margin-bottom: 30px;
@@ -65,5 +63,11 @@
       margin-bottom: 20px;
       letter-spacing: 2px;
     }
+  }
+}
+
+.review-vin {
+  & .col-4 {
+    padding: 0 5px;
   }
 }

@@ -1,4 +1,5 @@
-.submit {
+.submit,
+.admin-vehicle {
   &-title {
     margin: 20px 0;
     &:last-of-type {
@@ -16,7 +17,7 @@
       }
     }
     &__info {
-      margin-bottom: 50px;
+      margin-bottom: 30px;
       &-item {
         font-family: 'Avenir Heavy';
         color: $colorText;

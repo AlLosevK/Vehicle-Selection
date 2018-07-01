@@ -124,10 +124,8 @@ exports.loadCSS = ({
     rules: [
       {
         test: /\.scss$/,
-
         include,
         exclude,
-
         use: [
           {
             loader: 'style-loader'

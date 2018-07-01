@@ -3,7 +3,6 @@
   &-item {
     border-bottom: 5px solid $inactiveColor;
     flex-basis: 24.5%;
-    margin: 0 2px;
     &-content {
       font-family: 'Avenir Heavy';
       font-weight: 400;
@@ -28,7 +27,6 @@
     border-radius: 10px;
   }
   &__text {
-    max-width: 5%;
     padding: 10px 5px 0;
     text-align: center;
   }

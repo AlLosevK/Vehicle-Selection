@@ -53,14 +53,15 @@
         .col-6.p0
           .row.justify-content-center.m0
             label.customer-details-descr.col-12 Payout Figure
-              input.customer-details-reg-number(type="number")
+              input.customer-details-reg-figure(type="number")
             label.customer-details-descr.col-12 Finance Type
-              input.customer-details-reg-number(type="text" placeholder="Novated/ Operating Lease/ Car Loan")            
+              input.customer-details-reg-finance(type="text" placeholder="Novated/ Operating Lease/ Car Loan")            
         .col-6.p0
-          label.customer-details-descr.col-12 Payout Date
-            input.customer-details-reg-number(type="date")
-          label.customer-details-descr.col-12 Finance Company
-              input.customer-details-reg-number(type="number")
+          .row.justify-content-center.m0
+            label.customer-details-descr.col-12 Payout Date
+              input.customer-details-reg-date(type="date")
+            label.customer-details-descr.col-12 Finance Company
+                input.customer-details-reg-company(type="number")
         .col-12.p0.row.justify-content-center
           .h3.customer-details-title.col-12.p0 Consultant Details
           .col-6.p0

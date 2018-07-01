@@ -1,0 +1,17 @@
+.customer-details {
+  padding: 30px 0;
+  &-reg-number,
+  &-state {
+    width: 100%;
+  }
+  &-reg-figure,
+  &-reg-finance,
+  &-reg-date,
+  &-reg-company {
+    display: block;
+    width: 97%;
+    height: 35px;
+    margin-top: 5px;
+    padding: 5px;
+  }
+}

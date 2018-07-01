@@ -9,6 +9,10 @@
 @import 'common/customer-details';
 @import 'common/submit';
 @import 'common/sidebar';
+@import 'common/admin-main';
+@import 'common/admin-vehicle';
+@import 'common/admin-search-results';
+@import 'common/admin-search';
 
 * {
   margin: 0;
@@ -103,10 +107,11 @@ body {
             background-color: $companyColor;
             color: #fff;
             border-radius: 10px;
+            border: 1px solid $companyColor;
             &:hover {
               background-color: #fff;
               color: $companyColor;
-              border: 2px solid $companyColor;
+              border: 1px solid $companyColor;
               transition: all 1s;
             }
           }
