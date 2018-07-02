@@ -1,5 +1,6 @@
 @import 'fonts';
-@import 'common/vars';
+//@import 'common/vars-RemServ';
+@import 'common/vars-maxxia';
 @import 'common/header';
 @import 'common/nav';
 @import 'common/homepage';
@@ -13,6 +14,7 @@
 @import 'common/admin-vehicle';
 @import 'common/admin-search-results';
 @import 'common/admin-search';
+@import 'common/media';
 
 * {
   margin: 0;
@@ -61,6 +63,9 @@ body {
       padding: 0;
       font-size: 16px;
       font-family: 'Avenir Light';
+    }
+    & span.details-info__row-arg {
+      padding: 0;
     }
   }
   &__row .info__row-arg {

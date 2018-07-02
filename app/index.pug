@@ -5,14 +5,27 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title Maxxima
-    link(rel="stylesheet" type="text/css" href="app/styles/bootstrap-grid.min.css")
+    link(rel="stylesheet" type="text/css" href="styles/bootstrap-grid.min.css")
 
     
   body
     include includes/header
     main      
       include includes/nav
-      include includes/customer-details
+      //include includes/homepage
+      //include includes/review-vin
+      //include includes/review-man
+      //include includes/vehicle-details
+      //include includes/customer-details
+      include includes/submit
+  
+  //body.container
+    include includes/admin-sidebar
+    main
+      include includes/admin-main
+      //include includes/admin-search
+      //include includes/admin-search-results
+      //include includes/admin-vehicle
     
-  script(src="app/scripts/jquery.min.js")
-  script(src="app/scripts/bootstrap.bundle.min.js")
+  script(src="scripts/jquery.min.js")
+  script(src="scripts/bootstrap.bundle.min.js")

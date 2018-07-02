@@ -1,7 +1,7 @@
 {
-  "manifest.js": "/scripts/manifest.715eaefd.js",
-  "main.css": "/styles/1.acda61c1.css",
-  "main.js": "/scripts/main.7fd577a8.js",
+  "manifest.js": "/scripts/manifest.js",
+  "main.css": "/styles/main.css",
+  "main.js": "/scripts/main.js",
   "fonts/avenir-light-webfont.woff2": "/fonts/avenir-light-webfont.woff2",
   "fonts/arial-rounded-mt-regular.woff": "/fonts/arial-rounded-mt-regular.woff",
   "fonts/avenir-heavy-webfont.woff2": "/fonts/avenir-heavy-webfont.woff2",

@@ -2,7 +2,7 @@
   h1.review-man__title Review Vehicle Details
   .row.justify-content-center.p0.m0
     form.review-man__update.col-12.row.m0.p0(action="" method="post")
-      label.review-man__update-descr.col-2 Build Year
+      label.review-man__update-descr.col-3 Build Year
         select.review-man__update-year(name="year[]")
           option 2018
           option 2017
@@ -15,7 +15,7 @@
           option 2010
           option 2009
           option 1998
-      label.review-man__update-descr.col-4 Make
+      label.review-man__update-descr.col-3 Make
         select.review-man__update-make(name="make[]")
           option 2018
           option 2017
@@ -42,32 +42,31 @@
           option 2009
           option 1998
       input.review-man__update-submit.col-2(type="submit" value="Update")
-    .row.col-12.review-man__details.justify-content-center.m0.p0
+    .row.col-12.review-man__details.justify-content-start.justify-content-sm-center.m0.p0
       h3.review-man__details-title.col-12 Select the Variant
-      .responsive-table
-        table.table.review-man__details-table
-          thead
-            tr
-              th.review-man__details-table-head(scope="col") Variant
-              th.review-man__details-table-head(scope="col") Engine
-              th.review-man__details-table-head(scope="col") Transmission
-              th.review-man__details-table-head(scope="col")
-          tbody
-            tr
-              td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
-              td T4 Cyl 1.8L
-              td 6 SP AUTO DIRECT SHIFT
-              td
-                input(type="submit" value="Select")
-            tr
-              td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
-              td T4 Cyl 1.8L
-              td 6 SP AUTO DIRECT SHIFT
-              td
-                input(type="submit" value="Select")
-            tr
-              td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
-              td T4 Cyl 1.8L
-              td 6 SP AUTO DIRECT SHIFT
-              td
-                input(type="submit" value="Select")
+      table.table.review-man__details-table
+        thead
+          tr
+            th.review-man__details-table-head(scope="col") Variant
+            th.review-man__details-table-head(scope="col") Engine
+            th.review-man__details-table-head(scope="col") Transmission
+            th.review-man__details-table-head(scope="col")
+        tbody
+          tr
+            td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
+            td T4 Cyl 1.8L
+            td 6 SP AUTO DIRECT SHIFT
+            td
+              input(type="submit" value="Select")
+          tr
+            td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
+            td T4 Cyl 1.8L
+            td 6 SP AUTO DIRECT SHIFT
+            td
+              input(type="submit" value="Select")
+          tr
+            td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
+            td T4 Cyl 1.8L
+            td 6 SP AUTO DIRECT SHIFT
+            td
+              input(type="submit" value="Select")

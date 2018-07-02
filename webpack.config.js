@@ -109,8 +109,8 @@ const productionConfig = merge([
       }
     },
     output: {
-      chunkFilename: `${paths.js}/[name].[chunkhash:8].js`,
-      filename: `${paths.js}/[name].[chunkhash:8].js`
+      chunkFilename: `${paths.js}/[name].js`,
+      filename: `${paths.js}/[name].js`
     },
     performance: {
       hints: 'warning', // 'error' or false are valid too
@@ -121,7 +121,7 @@ const productionConfig = merge([
       new webpack.HashedModuleIdsPlugin(),
       new ManifestPlugin(),
       new BundleAnalyzerPlugin(),
-      new CleanPlugin(paths.build)
+      new CleanPlugin(['build/font/*.*', 'build/scripts/*.*','build/styles/*.*'])
     ]
   },
   parts.minifyJS({
@@ -170,8 +170,8 @@ const productionConfig = merge([
     include: paths.app,
     use: [parts.autoprefix(), cssPreprocessorLoader],
     options: {
-      filename: `${paths.css}/[name].[contenthash: 8].css`,
-      chunkFilename: `${paths.css}/[id].[contenthash:8].css`
+      filename: `${paths.css}/[name].css`,
+      chunkFilename: `${paths.css}/[name].css`
     }
   }),
   parts.purifyCSS({
@@ -194,7 +194,7 @@ const productionConfig = merge([
     include: paths.app,
     options: {
       limit: 15000,
-      name: `${paths.images}/[name].[hash:8].[ext]`
+      name: `${paths.images}/[name].[ext]`
     }
   }),
   // should go after loading images
