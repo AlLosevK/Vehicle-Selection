@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maxxia – Selected Vehicle</title>
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap-grid.min.css">
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 col-sm-3 col-lg-2 p0">
+          <a href="#">
+            <div class="header__logo"></div>
+          </a>
+        </div>
+        <div class="col-6 col-sm-9 col-lg-10">
+          <h2 class="header__text">Vehicle Evaluation Form</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <nav class="nav">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-3 col-md-3 nav-item is-active"><span class="nav-item-content">Select Vehicle</span></div>
+          <div class="col-3 col-md-3 nav-item"><span class="nav-item-content">About the Vehicle</span></div>
+          <div class="col-3 col-md-3 nav-item"><span class="nav-item-content">About the Customers</span></div>
+          <div class="col-3 col-md-3 nav-item"><span class="nav-item-content">Form Submited</span></div>
+        </div>
+      </div>
+    </nav>
+    <div class="container justify-content-center">
+      <div class="row justify-content-center">
+        <div class="details-info row justify-content-center col-12">
+          <h1 class="details-info-title col-12">Selected Vehicle</h1>
+          <div class="col-6 p0">
+            <div class="row details-info__row"><span class="col-12 col-md-4 details-info__row-arg">Make:</span><span class="col-12 col-md-8 details-info__row-value">Volkswagen</span></div>
+            <div class="row details-info__row"><span class="col-12 col-md-4 details-info__row-arg">Model:</span><span class="col-12 col-md-8 details-info__row-value">Golf R Wolfsburg Edition AU MY16</span></div>
+            <div class="row details-info__row"><span class="col-12 col-md-4 details-info__row-arg">Body:</span><span class="col-12 col-md-8 details-info__row-value">4D Wagon</span></div>
+          </div>
+          <div class="col-6 p0">
+            <div class="row details-info__row"><span class="col-12 col-md-4 details-info__row-arg">Engine:</span><span class="col-12 col-md-8 details-info__row-value">Turbo 4 1984 cc TMPFI </span></div>
+            <div class="row details-info__row"><span class="col-12 col-md-4 details-info__row-arg">Transmission:</span><span class="col-12 col-md-8 details-info__row-value">6 Sp Auto Direct Shift</span></div>
+            <div class="row details-info__row"><span class="col-12 col-md-4 details-info__row-arg">Build Year:</span><span class="col-12 col-md-8 details-info__row-value">2015</span></div>
+          </div>
+        </div>
+        <div class="row col-12 vehicle-details justify-content-center">
+          <h3 class="vehicle-details-title col-12">Enter Vehicle Details</h3>
+          <form class="row col-12 p0 justify-content-center">
+            <div class="col-6 p0"><label class="vehicle-details-descr">VIN (17 Digits):<input class="vehicle-details-number" type="text"></label><label class="vehicle-details-descr">State of Registration<select class="vehicle-details-state" name="year[]"><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>1998</option></select></label><label class="vehicle-details-descr">Odometr<input class="vehicle-details-odometr" type="number"></label></div>
+            <div class="col-6 p0"><label class="vehicle-details-descr">Registration Number:<input class="vehicle-details-reg-number" type="text"></label><label class="vehicle-details-descr">Registration Expiry:<input class="vehicle-details-reg-exp" type="date" value="2018-07-22" min="2018-01-01" max="2018-12-31"></label><label class="vehicle-details-descr">Compliance Date:<input class="vehicle-details-compliance" type="date"></label></div>
+            <div class="col-6 p0">
+              <div class="row justify-content-center m0"><label class="vehicle-details-descr col-12">Paint Colour:<input class="vehicle-details-reg-number" type="text"></label><span class="vehicle-details-descr vehicle-details-descr-out col-12">Service Books</span>
+                <div class="row vehicle-details-book col-12">
+                  <div class="col-6 vehicle-details-book-item"><input id="service-book-yes" type="radio" name="service-book" value="yes"><label for="service-book-yes">Yes</label></div>
+                  <div class="col-6 vehicle-details-book-item"><input id="service-book-no" type="radio" name="service-book" value="no"><label for="service-book-no">No</label></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 p0">
+              <div class="row m0 justify-content-center"><label class="vehicle-details-descr col-12">Interior Trim / Colour:<input class="vehicle-details-reg-number" type="text"></label><span class="vehicle-details-descr vehicle-details-descr-out col-12">Service History</span>
+                <div class="row vehicle-details-history col-12">
+                  <div class="col-6 vehicle-details-history-item"><input id="service-history-ff" type="radio" name="service-book" value="yes"><label for="service-history-ff">Full Franchise</label></div>
+                  <div class="col-6 vehicle-details-history-item"><input id="service-book-part" type="radio" name="service-book" value="no"><label for="service-book-part">Part</label></div>
+                  <div class="col-6 vehicle-details-history-item"><input id="service-book-full" type="radio" name="service-book" value="yes"><label for="service-book-full">full</label></div>
+                  <div class="col-6 vehicle-details-history-item"><input id="service-book-none" type="radio" name="service-book" value="no"><label for="service-book-none">None              </label></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 p0">
+              <div class="row m0 justify-content-center"><label class="vehicle-details-descr col-12">Options and/or Accessories:<textarea class="vehicle-details-accessories col-12" rows="5" id="accessories" name="accessories"></textarea></label>
+                <div class="row col-12 p0 justify-content-center">
+                  <div class="row col-6 p0 justify-content-center"><span class="vehicle-details-descr col-12">Previous Accident Damage:</span>
+                    <div class="row vehicle-details-damage col-12">
+                      <div class="col-6 vehicle-details-damage-item"><input id="service-book-yes" type="radio" name="damage" value="yes"><label for="damage-yes">Yes</label></div>
+                      <div class="col-6 vehicle-details-damage-item"><input id="service-book-no" type="radio" name="service-book" value="no"><label for="damage-no">No</label></div>
+                    </div>
+                  </div>
+                  <div class="row vehicle-details-descr col-6 vehicle-details-damage-descr"><span class="col-12 p0">If Yes, please detail any damage in the Condition box below...</span></div>
+                </div>
+                <div class="row col-12 p0"><label class="vehicle-details-descr vehicle-details-descr-out col-3 col-md-2" for="accessories">General Condition:</label><span class="vehicle-details-descr vehicle-details-descr-damage col-9 col-md-10">ie. Dents, Hail Damage, Body Scratches, Interior Damage, Tyre Depths, Previous Accident History</span></div><textarea class="vehicle-details-damage col-12" rows="5" id="accessories" name="accessories"></textarea></div>
+            </div>
+          </form>
+        </div>
+        <div class="row col-10 page-nav justify-content-center"><a class="page-nav__back col-5">Select my vehicle again (start over)</a><span class="page-nav__text col-2">or</span><a class="page-nav__next col-5">Submit for Valuation (End)</a></div>
+      </div>
+    </div>
+  </main>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
