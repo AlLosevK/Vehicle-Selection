@@ -234,7 +234,8 @@
 .review-vin__update-year {
   display: block;
   width: 100%;
-  height: 32px
+  height: 32px;
+  margin-top: 4px;
 }
 
 .admin-vehicle__submit,
@@ -244,7 +245,7 @@
   background-color: #ccc;
   border: none;
   height: 32px;
-  margin-top: 17px;
+  margin-top: 22px;
   box-sizing: border-box;
   background-color: #fff;
   border: 2px solid #666;
@@ -301,6 +302,7 @@
 .review-man__add-offer,
 .review-man__update {
   padding: 0 10px;
+  margin-bottom: 20px;
   width: 100%;
   vertical-align: middle;
   margin-bottom: 30px
@@ -433,6 +435,10 @@
   vertical-align: middle
 }
 
+input[type="radio"] {
+  margin-right: 5px;
+}
+
 .customer-details-descr,
 .customer-details-title,
 .vehicle-details-descr,
@@ -559,6 +565,11 @@
 .submit-title:last-of-type {
   margin-bottom: 0;
   padding-bottom: 20px
+}
+
+.admin-vehicle__main__table,
+.submit__main__table {
+  padding: 0 20px;
 }
 
 .admin-vehicle__main__table .col-6.p0:last-child,

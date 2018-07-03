@@ -9,6 +9,7 @@
   }
   &__main {
     &__table {
+      padding: 0 20px;
       & .col-6.p0 {
         &:last-child {
           border-left: 1px solid $inactiveColor;

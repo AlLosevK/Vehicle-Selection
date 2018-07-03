@@ -433,6 +433,10 @@
   vertical-align: middle
 }
 
+input[type="radio"] {
+  margin-right: 5px;
+}
+
 .customer-details-descr,
 .customer-details-title,
 .vehicle-details-descr,
@@ -559,6 +563,11 @@
 .submit-title:last-of-type {
   margin-bottom: 0;
   padding-bottom: 20px
+}
+
+.admin-vehicle__main__table,
+.submit__main__table {
+  padding: 0 20px;
 }
 
 .admin-vehicle__main__table .col-6.p0:last-child,
