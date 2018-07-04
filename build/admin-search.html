@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Admin - Search</title>
+  <title>Maxxima</title>
   <link rel="stylesheet" type="text/css" href="styles/bootstrap-grid.min.css">
   <link href="styles/main-maxxia.css" rel="stylesheet">
 </head>
@@ -19,46 +19,32 @@
       </div>
     </aside>
     <main class="col-8 col-md-10">
-      <div class="container justify-content-center col-12">
-        <div class="row justify-content-center">
-          <div class="admin-main details-info"> </div>
-          <h1 class="admin-main__manage-title col-12 p0">Manage Email Addresses for Buyers:</h1>
-          <div class="row col-12 admin-main__table justify-content-center m0 p0">
-            <div class="col-12 details-info-table row flex-nowrap align-items-stretch">
-              <div class="col-3 details-info-table__col details-info-table__col-Email">
-                <div class="details-info-table__col-title text-nowrap">Email-address</div>
-                <div class="details-info-table__row">buyer@buyer1.com.au</div>
-                <div class="details-info-table__row">buyer@sellmycar.com.au</div>
-                <div class="details-info-table__row">buyer@auction.com.au</div>
-              </div>
-              <div class="col-3 details-info-table__col details-info-table__col-Description">
-                <div class="details-info-table__col-title text-nowrap">Description</div>
-                <div class="details-info-table__row">Wholesaler 1</div>
-                <div class="details-info-table__row">Sell My Car</div>
-                <div class="details-info-table__row">Auction 2</div>
-              </div>
-              <div class="col-3 details-info-table__col details-info-table__col-Time">
-                <div class="details-info-table__col-title text-nowrap">Time / Date Entered</div>
-                <div class="details-info-table__row">4:00pm 17/5/2018</div>
-                <div class="details-info-table__row">3:45pm 17/5/2018</div>
-                <div class="details-info-table__row">2:34pm 12/5/2018</div>
-              </div>
-              <div class="col-3 details-info-table__col details-info-table__col-Delete">
-                <div class="details-info-table__col-title text-nowrap">Delete Email Recipient</div>
-                <div class="details-info-table__row por"> <a class="a a__delite" href=""></a></div>
-                <div class="details-info-table__row por"> <a class="a a__delite" href=""></a></div>
-                <div class="details-info-table__row por"> <a class="a a__delite" href=""></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="row col-12 admin-main__add justify-content-center p0">
-            <h2 class="admin-vehicle__details-subtitle col-12">Add Email Receipient:</h2>
-            <form class="admin-vehicle__add-offer col-12 row" action="" method="post"><label class="admin-vehicle__add-offer-descr col-4">Email Address<input class="admin-vehicle__add-offer-offer" type="email" placeholder="email@domain.com"></label><label class="admin-vehicle__add-offer-descr col-4">Description<input class="admin-vehicle__add-offer-buyer" type="text" placeholder="Description"></label><input class="admin-vehicle__add-offer-submit col-4" type="button" value="Add Email Recipient"></form>
-            <div class="col-12 p0">
-              <h3 class="submit__customer-details-notes">Note:</h3>
-              <p class="submit__customer-details-note">The email to buyers will be sent to all current addresses above as a 'bcc' as well as tradein@mmsg.com.au</p>
-            </div>
-          </div>
+      <div class="container admin-search p0">
+        <div class="row justify-content-start p0 m0 col-12">
+          <h1 class="admin-search-title col-12 p0">Select the Variant</h1>
+        </div>
+        <div class="row justify-content-start p0 m0 admin-search__vehicle bdb col-12">
+          <h2 class="admin-search__vehicle-title col-12 p0">Search by Vehicle:</h2>
+          <form class="admin-search__vehicle-form col-12 col-md-7 row justify-content-end">
+            <div class="admin-search__vehicle-form-item col-12 p0 row"><label class="col-6 col-md-5 p0" for="admin-search-vin">VIN (17 Digits):</label><input class="col-6 col-md-7" id="admin-search-vin" type="text" name="admin-search-vin"></div><span class="col-12 justify-content-end">or</span>
+            <div class="admin-search__vehicle-form-item col-12 p0 row"><label class="col-6 col-md-5 p0" for="admin-search-reg">Reg text:</label><input class="col-6 col-md-7" id="admin-search-reg" type="text" name="admin-search-reg"></div><input class="admin-search__vehicle-form-submit" type="button" value="Search"></form>
+        </div>
+        <div class="row justify-content-start p0 m0 admin-search__valuation bdb col-12">
+          <h2 class="admin-search__vehicle-title col-12 p0">Search by Valuation Date:</h2>
+          <form class="admin-search__valuation-form col-12 col-md-7 row justify-content-end">
+            <div class="admin-search__valuation-form-item col-12 p0 row"><label class="col-6 col-md-5 p0" for="admin-search-date-from">VIN (17 Digits):</label><input class="col-6 col-md-7" id="admin-search-date-from" type="text" name="admin-search-date-from"></div>
+            <div class="admin-search__valuation-form-item col-12 p0 row"><label class="col-6 col-md-5 p0" for="admin-search-date-to">Reg text:</label><input class="col-6 col-md-7" id="admin-search-date-to" type="text" name="admin-search-date-to"></div><input class="admin-search__valuation-form-submit" type="button" value="Search"></form>
+        </div>
+        <div class="row justify-content-start p0 m0 admin-search__vehicle bdb col-12">
+          <h2 class="admin-search__vehicle-title col-12 p0">Search by Customer Name:</h2>
+          <form class="admin-search__vehicle-form col-12 col-md-7 row justify-content-end">
+            <div class="admin-search__vehicle-form-item col-12 p0 row"><label class="col-6 col-md-5 p0" for="admin-search-customer-name">Name:</label><input class="col-6 col-md-7" id="admin-search-customer-name" type="text" name="admin-search-customer-date"></div><span class="col-12 justify-content-end">or</span>
+            <div class="admin-search__vehicle-form-item col-12 p0 row"><label class="col-6 col-md-5 p0" for="admin-search-customer-email">Email Address:</label><input class="col-6 col-md-7" id="admin-search-customer-email" type="email" name="admin-search-customer-email"></div><input class="admin-search__vehicle-form-submit" type="button" value="Search"></form>
+        </div>
+        <div class="row justify-content-start p0 m0 admin-search__vehicle bdb col-12">
+          <h2 class="admin-search__vehicle-title col-12 p0">Search by Consultant Name:</h2>
+          <form class="admin-search__vehicle-form col-12 col-md-7 row justify-content-end">
+            <div class="admin-search__vehicle-form-item col-12 p0 row"><label class="col-6 col-md-5 p0" for="admin-search-consultant-name">Name:</label><input class="col-6 col-md-7" id="admin-search-consultant-name" type="text" name="admin-search-consultant-date"></div><input class="admin-search__vehicle-form-submit" type="button" value="Search"></form>
         </div>
       </div>
     </main>
