@@ -1,6 +1,6 @@
 .container.justify-content-center
   .row.justify-content-center
-    .admin-vehicle.row.justify-content-center.col-12.p0
+    .admin-vehicle.row.justify-content-start.col-12.p0
       .admin-vehicle__head
         h1.admin-vehicle-title.p0.col-12.bdb Vehicle Details:
         .row.bdb.admin-vehicle__customer-details.m0
@@ -88,31 +88,58 @@
           .col-12.p0.admin-vehicle__main__info-item
             span General Condition:
             p Previous accident damage where front bar was scraped in a car park has been fully repaired.  Otherwise car is in showroom condition with no gutter rash on rims and 4 brand new Michelin Pilot Sport tyres.
-        .row.col-12.admin-vehicle__details.justify-content-center.m0.p0.bdb
+        .row.col-12.admin-vehicle__details.justify-content-start.m0.p0.bdb
           h3.admin-vehicle__details-title.col-12 Manage Buy Offers
-          .col-12.details-info-table.row.flex-nowrap.align-items-stretch
-            .col-4.details-info-table__col.details-info-table__col-variant
-              div.details-info-table__col-title.text-nowrap Offer
-              div.details-info-table__row $34,000
-              div.details-info-table__row $35,000
-            .col-4.details-info-table__col.details-info-table__col-engine
-              div.details-info-table__col-title.text-nowrap Buyer
-              div.details-info-table__row Wholesaler 1
-              div.details-info-table__row Manheim
-            .col-4.details-info-table__col.details-info-table__col-transmission
-              div.details-info-table__col-title Time / Date Entered
-              div.details-info-table__row 4:00pm 17/5/2018
-              div.details-info-table__row 3:45pm 17/5/2018
+          .responsive-table
+            table.table.admin-search-result__table
+              thead
+                tr
+                  th.admin-search-result__table-head(scope="col") Offer
+                  th.admin-search-result__table-head(scope="col") Buyer
+                  th.admin-search-result__table-head(scope="col") Time / Date Entered
+              tbody
+                tr
+                  td(scope="row") $34,000
+                  td Wholesaler 1
+                  td 4:00pm 17/5/2018
+                tr
+                  td(scope="row") $34,000
+                  td Wholesaler 1
+                  td 4:00pm 17/5/2018
+                tr
+                  td(scope="row") $34,000
+                  td Wholesaler 1
+                  td 4:00pm 17/5/2018
+                tr
+                  td(scope="row") $34,000
+                  td Wholesaler 1
+                  td 4:00pm 17/5/2018
+                tr
+                  td(scope="row") $34,000
+                  td Wholesaler 1
+                  td 4:00pm 17/5/2018
+                tr
+                  td(scope="row") $34,000
+                  td Wholesaler 1
+                  td 4:00pm 17/5/2018
+                tr
+                  td(scope="row") $34,000
+                  td Wholesaler 1
+                  td 4:00pm 17/5/2018
+                tr
+                  td(scope="row") $34,000
+                  td Wholesaler 1
+                  td 4:00pm 17/5/2018
           h2.admin-vehicle__details-subtitle.col-12 Add New Offer:
           form.admin-vehicle__add-offer.col-12.row(action="" method="post")
-            label.admin-vehicle__add-offer-descr.col-4 Buy offer
+            label.admin-vehicle__add-offer-descr.col-12.col-md-4 Buy offer
               input.admin-vehicle__add-offer-offer(type="number")
-            label.admin-vehicle__add-offer-descr.col-4 Buy offer
+            label.admin-vehicle__add-offer-descr.col-12.col-md-4 Buy offer
              input.admin-vehicle__add-offer-buyer(type="number")
-            input.admin-vehicle__add-offer-submit.col-4(type="button" value="Add Buy Offer")
+            input.admin-vehicle__add-offer-submit.col-12.col-md-4(type="button" value="Add Buy Offer")
         .row.col-12.justify-content-center
           h2.admin-vehicle__details-subtitle.col-12 Send Offer to Customer
           form.admin-vehicle__update.col-12.row.p0(action="" method="post")
-            label.admin-vehicle__update-descr.col-6 Buy offer (inc GST):
+            label.admin-vehicle__update-descr.col-12.col-md-6 Buy offer (inc GST):
               input.admin-vehicle__update-time(type="number")
-            input.admin-vehicle__submit.col-6(type="button" value="Send Offer to Consultant")
+            input.admin-vehicle__submit.col-12.col-md-6(type="button" value="Send Offer to Consultant")

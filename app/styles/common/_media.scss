@@ -76,4 +76,36 @@
       }
     }
   }
+  .admin-main {
+    &__manage {
+      &-title {
+        font-size: 14px;
+      }
+    }
+  }
+  .admin-vehicle {
+    &__details {
+      &-subtitle {
+        font-size: 12px;
+      }
+    }
+  }
+  .sidebar {
+    padding: 0 5px;
+    &-title {
+      font-size: 12px;
+    }
+  }
+  body.container {
+    min-width: 540px;
+    & h1 {
+      font-size: 16px;
+    }
+    & h2,
+    & h3,
+    & label {
+      font-size: 14px;
+    }
+
+  }
 }

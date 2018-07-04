@@ -121,7 +121,7 @@ const productionConfig = merge([
       new webpack.HashedModuleIdsPlugin(),
       new ManifestPlugin(),
       new BundleAnalyzerPlugin(),
-      new CleanPlugin(['build/font/*.*', 'build/scripts/*.*','build/styles/*.*'])
+      new CleanPlugin(['build/font/*.*', 'build/scripts/*.*', 'build/styles/main.css'])
     ]
   },
   parts.minifyJS({
