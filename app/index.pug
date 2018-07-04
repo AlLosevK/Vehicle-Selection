@@ -20,12 +20,13 @@ html(lang="en")
       //include includes/submit
   
   //body.container
-    include includes/admin-sidebar
-    main
-      include includes/admin-main
-      //include includes/admin-search
-      //include includes/admin-search-results
-      //include includes/admin-vehicle
+    .row
+      include includes/admin-sidebar
+      main.col-8.col-md-10
+        //include includes/admin-main
+        //include includes/admin-search
+        //include includes/admin-search-results
+        //include includes/admin-vehicle
     
-  script(src="app/scripts/jquery.min.js")
-  script(src="app/scripts/bootstrap.bundle.min.js")
+    script(src="app/scripts/jquery.min.js")
+    script(src="app/scripts/bootstrap.bundle.min.js")

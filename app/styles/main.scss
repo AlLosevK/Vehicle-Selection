@@ -1,6 +1,6 @@
 @import 'fonts';
-@import 'common/vars-RemServ';
-//@import 'common/vars-maxxia';
+//@import 'common/vars-RemServ';
+@import 'common/vars-maxxia';
 @import 'common/header';
 @import 'common/nav';
 @import 'common/homepage';
@@ -33,13 +33,29 @@ h1 {
   font-kerning: normal;
 }
 
+.por {
+  position: relative;
+}
+
 .a {
   position: absolute;
   display: block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   &__arrow-right {
+    background-image: url($arrowURL);
     color: #fff;
-    top: 35%;
+    width: 16px;
+    height: 16px;
+    top: 40%;
     right: -23px;
+  }
+  &__delite {
+    background-image: url(../../app/images/delite.png);
+    width: 16px;
+    height: 16px;
+    right: 45%;
+    top: 5px;
   }
 }
 
