@@ -33,8 +33,19 @@ h1 {
   font-kerning: normal;
 }
 
+.a {
+  position: absolute;
+  display: block;
+  &__arrow-right {
+    color: #fff;
+    top: 35%;
+    right: -23px;
+  }
+}
+
 body {
   font-family: 'Avenir Light', sans-serif;
+  padding-bottom: 40px;
 }
 
 .p0 {

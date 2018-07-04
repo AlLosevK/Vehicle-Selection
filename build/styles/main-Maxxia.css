@@ -2,28 +2,28 @@
   font-family: Avenir Light;
   font-style: normal;
   font-weight: 300;
-  src: url(../fonts/avenir-light-webfont.woff2) format("woff2")
+  src: url(/fonts/avenir-light-webfont.woff2) format("woff2")
 }
 
 @font-face {
   font-family: Avenir Heavy;
   font-style: normal;
   font-weight: 800;
-  src: url(../fonts/avenir-heavy-webfont.woff2) format("woff2")
+  src: url(/fonts/avenir-heavy-webfont.woff2) format("woff2")
 }
 
 @font-face {
   font-family: Arial Rounded;
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/arial-rounded-mt-regular.woff) format("woff")
+  src: url(/fonts/arial-rounded-mt-regular.woff) format("woff")
 }
 
 @font-face {
   font-family: Arial Rounded;
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/arial-rounded-mt-bold.woff) format("woff")
+  src: url(/fonts/arial-rounded-mt-bold.woff) format("woff")
 }
 
 .nav div.is-active {
@@ -234,7 +234,8 @@
 .review-vin__update-year {
   display: block;
   width: 100%;
-  height: 32px
+  height: 32px;
+  margin-top: 5px
 }
 
 .admin-vehicle__submit,
@@ -244,7 +245,7 @@
   background-color: #ccc;
   border: none;
   height: 32px;
-  margin-top: 17px;
+  margin-top: 22px;
   box-sizing: border-box;
   background-color: #fff;
   border: 2px solid #666;
@@ -303,7 +304,7 @@
   padding: 0 10px;
   width: 100%;
   vertical-align: middle;
-  margin-bottom: 30px
+  margin: 0 0 30px
 }
 
 .admin-vehicle__add-offer-descr,
@@ -427,14 +428,27 @@
   transition: all 1s
 }
 
+.admin-vehicle__details-table-mob,
+.review-man__details-table-mob {
+  margin-bottom: 10px;
+  border: 0b5cc solid;
+  padding: 5px 10px;
+  background-color: #ffa100;
+  border-right: 30px solid #e55302;
+  border-radius: 10px;
+  color: #000;
+  position: relative
+}
+
+.admin-vehicle__details-table-mob span:first-child,
+.review-man__details-table-mob span:first-child {
+  color: #000
+}
+
 .customer-details,
 .vehicle-details {
   padding: 30px 5px;
   vertical-align: middle
-}
-
-input[type="radio"] {
-  margin-right: 5px;
 }
 
 .customer-details-descr,
@@ -534,6 +548,10 @@ input[type="radio"] {
   padding-left: 10px
 }
 
+input[type=radio] {
+  margin-right: 5px
+}
+
 .customer-details {
   padding: 30px 0
 }
@@ -567,7 +585,7 @@ input[type="radio"] {
 
 .admin-vehicle__main__table,
 .submit__main__table {
-  padding: 0 20px;
+  padding: 0 20px
 }
 
 .admin-vehicle__main__table .col-6.p0:last-child,
@@ -841,8 +859,20 @@ p {
   font-kerning: normal
 }
 
+.a {
+  position: absolute;
+  display: block
+}
+
+.a__arrow-right {
+  color: #fff;
+  top: 35%;
+  right: -23px
+}
+
 body {
-  font-family: Avenir Light, sans-serif
+  font-family: Avenir Light, sans-serif;
+  padding-bottom: 40px
 }
 
 .p0 {

@@ -14,7 +14,7 @@
     padding: 0 10px;
     width: 100%;
     vertical-align: middle;
-    margin-bottom: 30px;
+    margin: 0 0 30px;
     &-title,
     &-descr {
       display: block;
@@ -91,6 +91,21 @@
               border: 1px solid $companyColor;
               transition: all 1s;
             }
+          }
+        }
+      }
+      &-mob {
+        margin-bottom: 10px;
+        border: 1px solid 00B5CC;
+        padding: 5px 10px;
+        background-color: $companyTableColor;
+        border-right: 30px solid $companyColor;
+        border-radius: 10px;
+        color: black;
+        position: relative;
+        & span {
+          &:first-child {
+            color: #000;
           }
         }
       }
