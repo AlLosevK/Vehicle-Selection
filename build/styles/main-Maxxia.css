@@ -425,7 +425,7 @@
   background-color: #fff;
   color: #e55302;
   border: 1px solid #e55302;
-  transition: all 1s
+  transition: all 1s;
 }
 
 .admin-vehicle__details-table-mob,
