@@ -436,20 +436,31 @@
   padding: 0 10px !important;
   width: 100%;
   height: 25.2px;
-  border: none;
   background-color: #003d79;
   color: #fff;
   border-radius: 10px;
   padding: 3px 10px 10px;
-  overflow: hidden;
   border: 1px solid #003d79
 }
 
 .admin-vehicle__details-table tr td input:hover,
 .review-man__details-table tr td input:hover {
-  background-color: #fff;
+  background-color: #003161;
   color: #003d79;
   border: 1px solid #003d79;
+  transition: all 1s
+}
+
+.admin-vehicle__details-table tr td input{
+  background-color: fff;
+  color: gray;
+  border: 1px solid gray
+}
+
+.admin-vehicle__details-table tr td input:hover{
+  background-color: gray;
+  color: #fff;
+  border: 1px solid gray;
   transition: all 1s
 }
 
