@@ -1025,8 +1025,8 @@ body.container{
   .vehicle-details-damage label{
     display: block !important;
   }
-  .vehicle-details-history label.mob{
-    font-size: 12px;
+  .vehicle-details-history label{
+    font-size: 10px;
   }
 }
 
