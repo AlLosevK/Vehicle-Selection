@@ -1025,6 +1025,9 @@ body.container{
   .vehicle-details-damage label{
     display: block !important;
   }
+  .vehicle-details-history label.mob{
+    display: none !important;
+  }
 }
 
 @media screen and (max-width:575px) {
