@@ -395,8 +395,14 @@
 
 .admin-vehicle__add-offer-submit,
 .admin-vehicle__update-submit{
+  display: inline-block;
+  width: 100%;
+  height: 32px;
+  margin-top: 21px;
   border: 2px solid gray;  
   color: gray;
+  background-color: #fff;  
+  border-radius: 10px
 }
 
 .admin-vehicle__add-offer-submit:hover,
