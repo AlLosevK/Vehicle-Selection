@@ -848,7 +848,7 @@ input[type=radio] {
     display: block !important;
   }
   .vehicle-details-history label{
-    fon-size: 10x;
+    font-size: 10px;
   }
 }
 
