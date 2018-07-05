@@ -706,7 +706,6 @@ input[type=radio] {
 .admin-search-result__table {
   border-collapse: collapse;
   font-size: 13px;
-  width: 1026px;
   text-align: center;
   margin: 0 0 20px
 }
