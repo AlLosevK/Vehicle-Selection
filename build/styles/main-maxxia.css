@@ -198,8 +198,7 @@
 }
 
 .search__submit:hover{
-  background-image: none;
-  background-color: #e55302;
+  background-image: linear-gradient(to right, #e55302 0%, #e55302 100%);
   border: 2px solid #e55302;
   color: #fff;
   transition: ALL 1s;
