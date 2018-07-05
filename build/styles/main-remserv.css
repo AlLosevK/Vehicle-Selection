@@ -103,6 +103,13 @@
   color: #fff
 }
 
+.page-nav__next:hover{
+  background-color: transparent;
+  color: #003d79;
+  border: 2px solid #003d79;
+  transition: all 1s
+}
+
 .page-nav__back:hover {
   transition: all 1s
 }
