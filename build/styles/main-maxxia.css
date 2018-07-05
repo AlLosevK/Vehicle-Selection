@@ -93,7 +93,7 @@
 }
 .page-nav__back{
   background-color: #fff;
-  background-image: transparent;
+  background-image: none;
   color: #e55302;
 }
 
