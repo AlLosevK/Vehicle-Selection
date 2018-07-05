@@ -563,7 +563,7 @@
 .vehicle-details-book-item,
 .vehicle-details-damage-item,
 .vehicle-details-history-item {
-  padding: 8px 15px;
+  padding: 8px 15px 0;
   border: 1px solid #999
 }
 
