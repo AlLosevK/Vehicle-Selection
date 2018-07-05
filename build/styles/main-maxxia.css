@@ -706,7 +706,6 @@ input[type=radio] {
 .admin-search-result__table {
   border-collapse: collapse;
   font-size: 13px;
-  width: 1026px;
   text-align: center;
   margin: 0 0 20px
 }
@@ -837,6 +836,14 @@ p {
   right: -30px;
 }
 
+span.a__menu{
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/menu.png);
+  top: 0;
+  right: 0;
+}
+
 .details-info-table__row a.a__delite {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAElBMVEX/AAD/AABMaXH/AAD/AAD/AAB5bAmJAAAABXRSTlNB9QDTwVA29ScAAABRSURBVAjXY2B2UAICFgMG00AmJSUF0WAG11ABJSXG0BAGxtBAJgXRUAEGEAHiMACFA4FsJQagwlCgAJABFAKpR2LApWCK4drhBsKtgFsKcwYA8IgVH3BDDNIAAAAASUVORK5CYII=);
   width: 16px;
@@ -860,7 +867,7 @@ body.container{
 }
 
 .vh100{
-  height:100%;
+  min-height:100vh;
 }
 
 .p0 {
@@ -1002,6 +1009,9 @@ body.container{
   }
   .admin-vehicle__customer-details-header {
     font-size: 16px
+  }
+  .admin-vehicle__customer-details-info{
+    padding: 0 5px;
   }
   .submit__customer-details-email,
   .submit__customer-details-name,
