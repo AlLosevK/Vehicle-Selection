@@ -847,6 +847,9 @@ input[type=radio] {
   .vehicle-details-damage label{
     display: block !important;
   }
+  .vehicle-details-history label.mob{
+    fon-size: 12px;
+  }
 }
 
 @media screen and (max-width:575px) {
