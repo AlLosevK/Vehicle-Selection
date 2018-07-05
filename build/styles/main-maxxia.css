@@ -730,6 +730,10 @@ input[type=radio] {
   text-decoration: none
 }
 
+.admin-search-result__table .details-info-table__row {
+  border: none;
+}
+
 .admin-search-result__table-head a:hover,
 .admin-search-result__table tr td a:hover {
   background-color: #fff;
@@ -793,55 +797,6 @@ input[type=radio] {
   padding: 5px 30px
 }
 
-@media screen and (max-width:575px) {
-  main {
-    padding: 0 10px
-  }
-  .header__text {
-    font-size: 1em
-  }
-  .nav-item {
-    font-size: 10px;
-    padding: 0 7px
-  }
-  .nav-item-content {
-    font-size: 12px;
-    font-family: Avenir Light
-  }
-  .page-nav__back,
-  .page-nav__next {
-    font-size: 13px
-  }
-  .review-vin__details-title {
-    font-size: 18px
-  }
-  .review-man__update-submit {
-    padding-left: 5px
-  }
-  .vehicle-details-descr {
-    font-size: 13px
-  }
-  .submit-title {
-    font-size: 1em
-  }
-  .submit__customer-details-header {
-    font-size: 16px
-  }
-  .submit__customer-details-email,
-  .submit__customer-details-name,
-  .submit__customer-details-phone,
-  .submit__customer-details-state {
-    font-family: Avenir Light
-  }
-  .submit__customer-details-email {
-    white-space: pre-line
-  }
-  .submit__main__info-item p,
-  .submit__main__info-item span {
-    font-family: Avenir Light
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -882,17 +837,29 @@ p {
   right: -30px;
 }
 
-.a__delite {
+.details-info-table__row a.a__delite {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAElBMVEX/AAD/AABMaXH/AAD/AAD/AAB5bAmJAAAABXRSTlNB9QDTwVA29ScAAABRSURBVAjXY2B2UAICFgMG00AmJSUF0WAG11ABJSXG0BAGxtBAJgXRUAEGEAHiMACFA4FsJQagwlCgAJABFAKpR2LApWCK4drhBsKtgFsKcwYA8IgVH3BDDNIAAAAASUVORK5CYII=);
   width: 16px;
   height: 16px;
   right: 45%;
-  top: 5px
+  top: 5px;
+  background-color: transparent;
+  border-radius: 0;
 }
 
 body {
   font-family: Avenir Light, sans-serif;
   padding-bottom: 40px
+}
+
+body.container{
+  max-width: 100vw;
+  min-height: 100vh;  
+  padding-bottom: 0;
+}
+
+.vh100{
+  height:100vh;
 }
 
 .p0 {
@@ -996,4 +963,63 @@ body {
   color: #e55302;
   border: 1px solid #e55302;
   transition: all 1s
+}
+
+@media screen and (max-width:575px) {
+  main {
+    padding: 0 10px
+  }
+  .header__text {
+    font-size: 1em
+  }
+  .nav-item {
+    font-size: 10px;
+    padding: 0 7px
+  }
+  .nav-item-content {
+    font-size: 12px;
+    font-family: Avenir Light
+  }
+  .page-nav__back,
+  .page-nav__next {
+    font-size: 13px
+  }
+  .review-vin__details-title {
+    font-size: 18px
+  }
+  .review-man__update-submit {
+    padding-left: 5px
+  }
+  .vehicle-details-descr {
+    font-size: 13px
+  }
+  .sidebar-title{
+    font-size: 12px;
+  }
+  .submit-title {
+    font-size: 1em
+  }
+  .admin-vehicle__customer-details-header {
+    font-size: 16px
+  }
+  .submit__customer-details-email,
+  .submit__customer-details-name,
+  .submit__customer-details-phone,
+  .submit__customer-details-state {
+    font-family: Avenir Light
+  }
+  .submit__customer-details-email {
+    white-space: pre-line
+  }
+  .submit__main__info-item p,
+  .submit__main__info-item span {
+    font-family: Avenir Light
+  }
+  h1{
+    font-size: 14px;
+  }
+  h2,
+  h3{
+    font-size: 12px;
+  }
 }
