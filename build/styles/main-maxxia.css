@@ -260,6 +260,11 @@
   transition: ALL 1s
 }
 
+.admin-vehicle__submit{
+  color: gray;
+  border: 2px solid gray;
+}
+
 .admin-vehicle .row .justify-content-md-center,
 .review-vin .row .justify-content-md-center {
   margin: 0
