@@ -859,7 +859,7 @@ body.container{
 }
 
 .vh100{
-  height: 100vh;
+  height: calc(100% + 10px);
 }
 
 .p0 {
