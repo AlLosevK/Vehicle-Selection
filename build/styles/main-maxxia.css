@@ -192,15 +192,15 @@
   width: 82%;
   border: none;
   height: 38px;
-  background-color: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
+  background-image: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
   color: #fff;
   border-radius: 10px
 }
 
 .search__submit:hover{
-  background-color: transparent;
+  background-image: linear-gradient(to right, e55302 100%, e55302 100%);
   border: 2px solid #e55302;
-  color: #e55302;
+  color: #fff;
   transition: ALL 1s;
 }
 
