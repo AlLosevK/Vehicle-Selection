@@ -1019,6 +1019,14 @@ body.container{
   transition: all 0.3s
 }
 
+@media screen and (max-width:800px) {
+  .vehicle-details-book label,
+  .vehicle-details-history label,
+  .vehicle-details-damage label{
+    display: block;
+  }
+}
+
 @media screen and (max-width:575px) {
   main {
     padding: 0 10px
