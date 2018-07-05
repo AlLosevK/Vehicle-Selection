@@ -1002,6 +1002,9 @@ body.container{
   .admin-vehicle__customer-details-header {
     font-size: 16px
   }
+  .admin-vehicle__customer-details-info{
+    padding: 0 5px;
+  }
   .submit__customer-details-email,
   .submit__customer-details-name,
   .submit__customer-details-phone,
