@@ -799,25 +799,6 @@ input[type=radio] {
   color: #fff
 }
 
-.admin-search-result__csv {
-  display: inline-block;
-  width: 100%;
-  background-color: #ccc;
-  border: none;
-  height: 32px;
-  margin-top: 17px;
-  box-sizing: border-box;
-  background-color: #fff;
-  border: 1px solid #666;
-  border-radius: 10px
-}
-
-.admin-search-result__csv:hover {
-  background-color: #666;
-  color: #fff;
-  transition: ALL 0.3s
-}
-
 .admin-search__title,
 .admin-search__valuation-title,
 .admin-search__vehicle-title {
