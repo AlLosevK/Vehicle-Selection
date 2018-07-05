@@ -836,6 +836,14 @@ p {
   right: -30px;
 }
 
+span.a__menu{
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/menu.png);
+  top: 0;
+  right: 0;
+}
+
 .details-info-table__row a.a__delite {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAElBMVEX/AAD/AABMaXH/AAD/AAD/AAB5bAmJAAAABXRSTlNB9QDTwVA29ScAAABRSURBVAjXY2B2UAICFgMG00AmJSUF0WAG11ABJSXG0BAGxtBAJgXRUAEGEAHiMACFA4FsJQagwlCgAJABFAKpR2LApWCK4drhBsKtgFsKcwYA8IgVH3BDDNIAAAAASUVORK5CYII=);
   width: 16px;
