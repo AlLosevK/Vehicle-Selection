@@ -4,7 +4,6 @@
   font-weight: 300;
   src: url(../fonts/avenir-light-webfont.woff2) format("woff2")
 }
-
 @font-face {
   font-family: Avenir Heavy;
   font-style: normal;
@@ -195,7 +194,7 @@
 }
 
 .search__submit:hover{
-  background-color: transparent;
+  background-color: #003161;
   border: 2px solid #003d79;
   color: #003d79;
   transition: ALL 1s;
