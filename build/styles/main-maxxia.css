@@ -756,6 +756,10 @@ input[type=radio] {
   margin: 20px 0
 }
 
+.admin-search-result__csv {
+  font-size: 11px;
+}
+
 .admin-search-result__table {
   border-collapse: collapse;
   font-size: 13px;
