@@ -730,6 +730,10 @@ input[type=radio] {
   text-decoration: none
 }
 
+.admin-search-result__table .details-info-table__row {
+  border: none;
+}
+
 .admin-search-result__table-head a:hover,
 .admin-search-result__table tr td a:hover {
   background-color: #fff;
@@ -887,7 +891,9 @@ details-info-table__row a.a__delite {
   width: 16px;
   height: 16px;
   right: 45%;
-  top: 5px
+  top: 5px;
+  background-color: transparent;
+  border-radius: 0;
 }
 
 body {
