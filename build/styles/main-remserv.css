@@ -104,7 +104,7 @@
 }
 
 .page-nav__next:hover{
-  background-color: transparent;
+  background-color: #003161;
   color: #003d79;
   border: 2px solid #003d79;
   transition: all 1s
