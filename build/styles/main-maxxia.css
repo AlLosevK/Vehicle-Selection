@@ -1024,11 +1024,10 @@ body.container{
   .vehicle-details-history label,
   .vehicle-details-damage label{
     display: block !important;
-  }
-  .vehicle-details-history label{
     font-size: 10px;
   }
 }
+
 
 @media screen and (max-width:575px) {
   main {
