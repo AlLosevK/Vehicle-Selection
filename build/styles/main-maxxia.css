@@ -355,8 +355,6 @@
   height: 32px
 }
 
-.admin-vehicle__add-offer-submit,
-.admin-vehicle__update-submit,
 .review-man__add-offer-submit,
 .review-man__update-submit {
   display: inline-block;
@@ -368,6 +366,13 @@
   border: 2px solid #e55302;
   color: #e55302;
   border-radius: 10px
+}
+
+
+.admin-vehicle__add-offer-submit,
+.admin-vehicle__update-submit{
+  border: 2px solid gray;  
+  color: gray;
 }
 
 .admin-vehicle__add-offer-submit:hover,
@@ -382,6 +387,7 @@
 .admin-vehicle__add-offer-submit:hover,
 .admin-vehicle__update-submit:hover{
   background-color: gray;
+  color: #fff;
 }
 
 .admin-vehicle__details,
