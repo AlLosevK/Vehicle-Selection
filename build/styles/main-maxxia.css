@@ -111,7 +111,8 @@
 
 .page-nav__next:hover{
   background-image: linear-gradient(to right, #e55302 0%, #e55302 100%);
-  border: 2px solid #e55302;
+  border: 2px solid #e55302;  
+  color: #fff;
   text-decoration: none;
   transition: all 1s
 }
