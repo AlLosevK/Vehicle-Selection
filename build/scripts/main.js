@@ -9,11 +9,11 @@
 
 $(".a__menu").click(function (e) {
   e.preventDefault();
-  if ($(this).hasClass('a__menu-open')) {
-    $(".sidebar").fadeOut(400);
-    $(this).removeClass('a__menu-open');
+  if ($(".sidebar").hasClass('d-none')) {
+    $(".sidebar").removeClass('d-none');
+    $(".sidebar").addClass('d-block');
   } else {
-    $(this).addClass('a__menu-open');
-    $(".sidebar").fadeIn(400);
+    $(".sidebar").removeClass('d-block');
+    $(".sidebar").addClass('d-none');
   };
 })
