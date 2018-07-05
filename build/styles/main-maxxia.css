@@ -395,7 +395,10 @@
   border-radius: 10px
 }
 
-
+.admin-vehicle__add-offer-submit{  
+  height: 32px;
+  margin-top: 21px;
+}
 .admin-vehicle__update-submit{
   display: inline-block;
   width: 100%;
