@@ -847,8 +847,8 @@ input[type=radio] {
   .vehicle-details-damage label{
     display: block !important;
   }
-  .vehicle-details-history label.mob{
-    fon-size: 12px;
+  .vehicle-details-history label{
+    fon-size: 10x;
   }
 }
 
