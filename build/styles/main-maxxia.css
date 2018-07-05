@@ -99,13 +99,12 @@
 
 .page-nav__back:hover,
 .page-nav__next {
-  background-color: #e55302;
+  background-color: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
   color: #fff
 }
 
 .page-nav__next:hover{
-  background-color: transparent;
-  color: #e55302;
+  background-color: #e55302;
   border: 2px solid #e55302;
   transition: all 1s
 }
@@ -189,7 +188,7 @@
   width: 82%;
   border: none;
   height: 38px;
-  background-color: #e55302;
+  background-color: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
   color: #fff;
   border-radius: 10px
 }
