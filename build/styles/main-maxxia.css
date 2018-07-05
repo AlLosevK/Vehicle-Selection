@@ -1026,7 +1026,7 @@ body.container{
     display: block !important;
   }
   .vehicle-details-history label.mob{
-    font-size: 12;
+    font-size: 12px;
   }
 }
 
