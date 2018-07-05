@@ -2,28 +2,28 @@
   font-family: Avenir Light;
   font-style: normal;
   font-weight: 300;
-  src: url(/fonts/avenir-light-webfont.woff2) format("woff2")
+  src: url(fonts/avenir-light-webfont.woff2) format("woff2")
 }
 
 @font-face {
   font-family: Avenir Heavy;
   font-style: normal;
   font-weight: 800;
-  src: url(/fonts/avenir-heavy-webfont.woff2) format("woff2")
+  src: url(fonts/avenir-heavy-webfont.woff2) format("woff2")
 }
 
 @font-face {
   font-family: Arial Rounded;
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/arial-rounded-mt-regular.woff) format("woff")
+  src: url(fonts/arial-rounded-mt-regular.woff) format("woff")
 }
 
 @font-face {
   font-family: Arial Rounded;
   font-style: normal;
   font-weight: 700;
-  src: url(/fonts/arial-rounded-mt-bold.woff) format("woff")
+  src: url(fonts/arial-rounded-mt-bold.woff) format("woff")
 }
 
 .nav div.is-active {
@@ -368,7 +368,6 @@
   border: 2px solid #003D79;
   border-radius: 10px
 }
-
 .admin-vehicle__add-offer-submit:hover,
 .admin-vehicle__update-submit:hover,
 .review-man__add-offer-submit:hover,
@@ -376,6 +375,12 @@
   background-color: #003D79;
   color: #fff;
   transition: all 1s
+}
+
+
+.admin-vehicle__add-offer-submit:hover,
+.admin-vehicle__update-submit:hover{
+  background-color: gray;
 }
 
 .admin-vehicle__details,
