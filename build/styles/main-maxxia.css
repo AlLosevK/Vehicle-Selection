@@ -83,13 +83,14 @@
 .page-nav__back,
 .page-nav__next {
   display: inline-block;
-  background-color: #fff;
+  background-color: #linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);;
   border: 2px solid #e55302;
   color: #e55302;
   padding: 10px 20px;
   text-align: center;
   font-family: Avenir Heavy;
-  border-radius: 10px
+  border-radius: 10px;
+  color: #fff;
 }
 
 .page-nav__text {
@@ -97,9 +98,8 @@
   text-align: center
 }
 
-.page-nav__back:hover,
-.page-nav__next {
-  background-color: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
+.page-nav__back:hover {
+  background-color: #e55302;
   color: #fff
 }
 
