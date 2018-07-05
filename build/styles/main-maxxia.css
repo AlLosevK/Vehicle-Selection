@@ -83,7 +83,7 @@
 .page-nav__back,
 .page-nav__next {
   display: inline-block;
-  background-image: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);;
+  background-image: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
   border: 2px solid #e55302;
   padding: 10px 20px;
   text-align: center;
@@ -93,6 +93,7 @@
 }
 .page-nav__back{
   background-color: #fff;
+  background-image: transparent;
   color: #e55302;
 }
 
@@ -108,7 +109,7 @@
 }
 
 .page-nav__next:hover{
-  background-color: #e55302;
+  background-image: linear-gradient(to right, #e55302 0%, #e55302 100%);
   border: 2px solid #e55302;
   transition: all 1s
 }
