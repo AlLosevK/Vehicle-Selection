@@ -248,13 +248,13 @@
   margin-top: 22px;
   box-sizing: border-box;
   background-color: #fff;
-  border: 2px solid #666;
+  border: 2px solid #e55302;
   border-radius: 10px
 }
 
 .admin-vehicle__submit:hover,
 .review-vin__submit:hover {
-  background-color: #666;
+  background-color: #e55302;
   color: #fff;
   transition: ALL 1s
 }
@@ -359,7 +359,7 @@
   height: 32px;
   margin-top: 17px;
   background-color: #fff;
-  border: 2px solid #666;
+  border: 2px solid #e55302;
   border-radius: 10px
 }
 
@@ -367,7 +367,7 @@
 .admin-vehicle__update-submit:hover,
 .review-man__add-offer-submit:hover,
 .review-man__update-submit:hover {
-  background-color: #666;
+  background-color: #e55302;
   color: #fff;
   transition: all 1s
 }
