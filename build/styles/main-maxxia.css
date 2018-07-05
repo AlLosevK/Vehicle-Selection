@@ -908,6 +908,15 @@ body {
   padding-bottom: 40px
 }
 
+body.container{
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+body.container row{
+  height: 100%;
+}
+
 .p0 {
   padding: 0
 }
