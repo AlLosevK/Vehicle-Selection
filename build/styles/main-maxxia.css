@@ -825,6 +825,9 @@ input[type=radio] {
   .vehicle-details-descr {
     font-size: 13px
   }
+  .sidebar-title{
+    font-size: 12px;
+  }
   .submit-title {
     font-size: 1em
   }
