@@ -249,7 +249,13 @@
   box-sizing: border-box;
   background-color: #fff;
   border: 2px solid #003D79;
+  color: #003D79;
   border-radius: 10px
+}
+
+.admin-vehicle__submit{  
+  border: 2px solid gray;
+  color: gray;
 }
 
 .admin-vehicle__submit:hover,
