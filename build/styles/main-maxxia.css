@@ -844,6 +844,13 @@ input[type=radio] {
   .submit__main__info-item span {
     font-family: Avenir Light
   }
+  h1{
+    font-size: 14px;
+  }
+  h2,
+  h3{
+    font-size: 12px;
+  }
 }
 
 * {
