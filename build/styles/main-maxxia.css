@@ -844,6 +844,7 @@ button.a__menu{
   border: none;
   top: 0;
   right: 0;
+  z-index: 1;
 }
 
 .details-info-table__row a.a__delite {
