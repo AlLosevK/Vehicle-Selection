@@ -379,6 +379,11 @@
   transition: all 1s
 }
 
+.admin-vehicle__add-offer-submit:hover,
+.admin-vehicle__update-submit:hover{
+  background-color: gray;
+}
+
 .admin-vehicle__details,
 .review-man__details {
   padding: 0 10px
