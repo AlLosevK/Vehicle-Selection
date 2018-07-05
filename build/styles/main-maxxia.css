@@ -977,6 +977,9 @@ body.container{
   main {
     padding: 0 10px
   }
+  aside.sidebar{
+    position: absolute;
+  }
   .header__text {
     font-size: 1em
   }
