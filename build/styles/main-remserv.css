@@ -106,11 +106,11 @@
   background-color: #003161;
   color: #fff;
   border: 2px solid #003d79;
-  transition: all 1s
+  transition: all 0.3s
 }
 
 .page-nav__back:hover {
-  transition: all 1s
+  transition: all 0.3s
 }
 
 .search {
@@ -197,7 +197,7 @@
   background-color: #003161;
   border: 2px solid #003d79;
   color: #fff;
-  transition: ALL 1s;
+  transition: ALL 0.3s;
 }
 
 .admin-vehicle,
@@ -275,7 +275,7 @@
 .review-vin__submit:hover {
   background-color: #003D79;
   color: #fff;
-  transition: ALL 1s
+  transition: ALL 0.3s
 }
 
 .admin-vehicle .row .justify-content-md-center,
@@ -387,7 +387,7 @@
 .review-man__update-submit:hover {
   background-color: #003D79;
   color: #fff;
-  transition: all 1s
+  transition: all 0.3s
 }
 
 
@@ -448,7 +448,7 @@
   background-color: #003161;
   color: #003d79;
   border: 1px solid #003d79;
-  transition: all 1s
+  transition: all 0.3s
 }
 
 .review-man__details-table tr td input:hover{
@@ -465,7 +465,7 @@
   background-color: gray;
   color: #fff;
   border: 1px solid gray;
-  transition: all 1s
+  transition: all 0.3s
 }
 
 .admin-vehicle__details-table-mob,
@@ -772,7 +772,7 @@ input[type=radio] {
   background-color: #fff;
   color: #003d79;
   border: 1px solid #003d79;
-  transition: all 1s
+  transition: all 0.3s
 }
 
 .admin-search-result__table-head {
@@ -796,7 +796,7 @@ input[type=radio] {
 .admin-search-result__csv:hover {
   background-color: #666;
   color: #fff;
-  transition: ALL 1s
+  transition: ALL 0.3s
 }
 
 .admin-search__title,
@@ -1032,5 +1032,5 @@ body {
   background-color: #fff;
   color: #003d79;
   border: 1px solid #003d79;
-  transition: all 1s
+  transition: all 0.3s
 }
