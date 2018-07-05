@@ -473,7 +473,8 @@
   margin-bottom: 10px;
   border: 0b5cc solid;
   padding: 5px 10px;
-  background-color: #00b5cc;
+  background-color: #bdf5ff;
+  border: 1px solid #00abc8;
   border-right: 30px solid #003d79;
   border-radius: 10px;
   color: #000;
