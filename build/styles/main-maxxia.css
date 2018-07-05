@@ -645,7 +645,8 @@ input[type=radio] {
 
 .admin-vehicle__main__info,
 .submit__main__info {
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  padding: 0 20px;
 }
 
 .admin-vehicle__main__info-item,
