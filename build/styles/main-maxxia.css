@@ -1023,7 +1023,7 @@ body.container{
   .vehicle-details-book label,
   .vehicle-details-history label,
   .vehicle-details-damage label{
-    display: block;
+    display: block !important;
   }
 }
 
