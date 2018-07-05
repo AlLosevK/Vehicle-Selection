@@ -194,6 +194,13 @@
   border-radius: 10px
 }
 
+.search__submit:hover{
+  background-color: transparent;
+  border: 2px solid #e55302;
+  color: #e55302;
+  transition: ALL 1s;
+}
+
 .admin-vehicle,
 .review-vin {
   color: #666;
