@@ -999,7 +999,7 @@ body.container{
   .submit-title {
     font-size: 1em
   }
-  .admin-vehicle__customer-details .submit__customer-details-header {
+  .admin-vehicle__customer-details-header {
     font-size: 16px
   }
   .submit__customer-details-email,
