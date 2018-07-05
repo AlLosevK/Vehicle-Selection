@@ -853,7 +853,8 @@ input[type=radio] {
     font-size: 18px
   }
   .review-man__update-submit {
-    padding-left: 5px
+    padding-left: 5px;
+    font-size: 11px;
   }
   .vehicle-details-descr {
     font-size: 13px
