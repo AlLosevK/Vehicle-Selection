@@ -836,10 +836,12 @@ p {
   right: -30px;
 }
 
-span.a__menu{
+button.a__menu{
   width: 32px;
   height: 32px;
   background-image: url(../images/menu.png);
+  background-repeat: no-repeat;
+  border: none;
   top: 0;
   right: 0;
 }
@@ -979,6 +981,8 @@ body.container{
   }
   aside.sidebar{
     position: absolute;
+    z-index: 1;
+    height: 100vh;
   }
   .header__text {
     font-size: 1em
