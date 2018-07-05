@@ -646,6 +646,16 @@ input[type=radio] {
   margin: 15px 0
 }
 
+.admin-vehicle__main__info-item span,
+.submit__main__info-item span{
+  margin-right: 10px;
+}
+
+.admin-vehicle__main__info-item p,
+.submit__main__info-item p{
+  font-family: Avenir Light;
+}
+
 .admin-vehicle__customer-details,
 .submit__customer-details {
   padding: 20px 5px
