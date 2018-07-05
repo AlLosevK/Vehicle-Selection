@@ -886,7 +886,7 @@ p {
   right: -30px;
 }
 
-details-info-table__row a.a__delite {
+.details-info-table__row a.a__delite {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAElBMVEX/AAD/AABMaXH/AAD/AAD/AAB5bAmJAAAABXRSTlNB9QDTwVA29ScAAABRSURBVAjXY2B2UAICFgMG00AmJSUF0WAG11ABJSXG0BAGxtBAJgXRUAEGEAHiMACFA4FsJQagwlCgAJABFAKpR2LApWCK4drhBsKtgFsKcwYA8IgVH3BDDNIAAAAASUVORK5CYII=);
   width: 16px;
   height: 16px;
