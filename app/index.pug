@@ -8,16 +8,20 @@ html(lang="en")
     link(rel="stylesheet" type="text/css" href="app/styles/bootstrap-grid.min.css")
 
 
-  body
+  //body
     include includes/header
     main
       include includes/nav
       //include includes/homepage
-      include includes/review-vin
-
-  //body.container.por
+      //include includes/review-vin
+      //include includes/review-man
+      //include includes/vehicle-details      
+      //include includes/customer-details
+      include includes/submit
+      
+  body.container.por
     .row.vh100
-      button.d-block.d-sm-none.a.a__menu
+      button.d-block.d-md-none.a.a__menu
       include includes/admin-sidebar
       main.col-12.col-md-10
         include includes/admin-main

@@ -94,7 +94,7 @@
             border-radius: 10px;
             padding: 3px 10px 10px;
             border: 1px solid $companyColor;
-            background-color: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
+            background-image: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
             font-family: 'Avenir Heavy';
             &:hover {
               background-image: linear-gradient(to right, #e55302 0%, #e55302 100%);
@@ -115,6 +115,19 @@
     &-submit {
       padding-left: 5px;
       font-size: 11px;
+      height: 32px;
+      margin-top: 17px;
+      color: $companyColor;
+      border: 2px solid $companyColor;
+      border-radius: 10px;
+      background-color: transparent;
+      &:hover {
+        background-color: $companyColor;
+        color: #fff;
+        border: 2px solid #e55302;
+        text-decoration: none;
+        transition: all 0.3s
+      }
     }
   }
 }
