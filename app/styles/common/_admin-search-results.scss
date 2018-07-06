@@ -1,0 +1,39 @@
+.admin-search-result {
+  &-title {
+    margin: 20px 0;
+  }
+  &__table {
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 0 20px;
+    &-head {
+      padding: 5px 5px;
+      border: 1px solid black;
+      & a {
+        width: 100%;
+        display: block;
+        padding: 3px 0 10px;
+        height: 25.2px;
+        border: none;
+        background-color: $companyColor;
+        color: #fff;
+        border-radius: 10px;
+        text-decoration: none;
+        &:hover {
+          background-color: #fff;
+          color: $companyColor;
+          border: 1px solid $companyColor;
+          transition: all 0.3s;
+        }
+      }
+    }
+    &-head {
+      background-color: $colorText;
+      color: #fff;
+    }
+  }
+  &__csv {
+    font-size: 11px;
+  }
+}

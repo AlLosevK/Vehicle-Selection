@@ -1,0 +1,19 @@
+$companyColor: #e55302;
+$companyTableColor: #FFA100;
+$inactiveColor: #999999;
+$colorText: #666666;
+$logoURL: url("../../images/header_logo.png");
+$arrowURL: url("../../images/arrow-right.png");
+.nav div.is-active {
+  border-color: $companyColor;
+  & span {
+    color: $companyColor;
+  }
+}
+
+
+.header {
+  &__logo {
+    background-image: $logoURL;
+  }
+}

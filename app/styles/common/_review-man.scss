@@ -1,0 +1,141 @@
+.review-man,
+.admin-vehicle {
+  color: $colorText;
+  padding: 30px 5px;
+  &__title {
+    font-family: 'Avenir Heavy';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin: 10px 0 20px;
+  }
+  &__update,
+  &__add-offer {
+    padding: 0 10px;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0 0 30px;
+    &-title,
+    &-descr {
+      display: block;
+      font-family: 'Arial';
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      text-align: left;
+    }
+    &-descr {
+      display: inline-block;
+      font-size: 14px;
+      padding: 0 5px;
+    }
+    &-year,
+    &-make,
+    &-model {
+      display: block;
+      width: 100%;
+      height: 32px;
+    }
+  }
+  &__details {
+    padding: 0 10px;
+    &-title {
+      padding: 0;
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+    &-table {
+      border-collapse: collapse;
+      white-space: pre;
+      &-head {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid $inactiveColor;
+        width: 100%;
+        font-size: 14px;
+        font-family: 'Avenir Heavy';
+        color: white;
+        background-color: $companyColor;
+      }
+
+      &-mob {
+        margin-bottom: 10px;
+        display: block;
+        border: 1px solid $companyColor;
+        padding: 5px 10px;
+        background-color: $companyTableColor;
+        border-right: 30px solid $companyColor;
+        border-radius: 10px;
+        color: black;
+        position: relative;
+        & span {
+          &:first-child {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}
+
+.review-man {
+  &__details {
+    &-table {
+      & tr {
+        & td {
+          border: 1px solid $inactiveColor;
+          padding: 10px 5px;
+          & input {
+            padding: 0 10px !important;
+            width: 100%;
+            height: 25.2px;
+            border: none;
+            color: #fff;
+            border-radius: 10px;
+            padding: 3px 10px 10px;
+            border: 1px solid $companyColor;
+            background-color: linear-gradient(to right, rgb(229, 83, 2) 0%, rgb(243, 123, 29) 100%);
+            font-family: 'Avenir Heavy';
+            &:hover {
+              background-image: linear-gradient(to right, #e55302 0%, #e55302 100%);
+              color: #fff;
+              border: 2px solid #e55302;
+              text-decoration: none;
+              transition: all 0.3s
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.review-man {
+  &__update {
+    &-submit {
+      padding-left: 5px;
+      font-size: 11px;
+    }
+  }
+}
+
+.review-man {
+  &__add-offer {
+    &-submit {
+      display: inline-block;
+      width: 100%;
+      border: none;
+      height: 32px;
+      margin-top: 17px;
+      background-color: white;
+      border: 2px solid $companyColor;
+      color: $companyColor;
+      border-radius: 10px;
+      &:hover {
+        background-color: $companyColor;
+        color: white;
+        transition: all 0.3s;
+      }
+    }
+  }
+}
