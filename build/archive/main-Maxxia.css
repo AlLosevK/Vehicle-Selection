@@ -425,13 +425,15 @@
   background-color: #fff;
   color: #e55302;
   border: 1px solid #e55302;
-  transition: all 1s
+  transition: all 1s;
 }
 
 .admin-vehicle__details-table-mob,
 .review-man__details-table-mob {
   margin-bottom: 10px;
-  border: 0b5cc solid;
+  display: block;
+  text-decoration: none;
+  border: 2px solid #e55302;
   padding: 5px 10px;
   background-color: #ffa100;
   border-right: 30px solid #e55302;
@@ -859,15 +861,32 @@ p {
   font-kerning: normal
 }
 
+.por {
+  position: relative
+}
+
 .a {
   position: absolute;
-  display: block
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%
 }
 
 .a__arrow-right {
+  background-image: url(../images/arrow-right.png);
   color: #fff;
-  top: 35%;
+  width: 16px;
+  height: 16px;
+  top: 40%;
   right: -23px
+}
+
+.a__delite {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAElBMVEX/AAD/AABMaXH/AAD/AAD/AAB5bAmJAAAABXRSTlNB9QDTwVA29ScAAABRSURBVAjXY2B2UAICFgMG00AmJSUF0WAG11ABJSXG0BAGxtBAJgXRUAEGEAHiMACFA4FsJQagwlCgAJABFAKpR2LApWCK4drhBsKtgFsKcwYA8IgVH3BDDNIAAAAASUVORK5CYII=);
+  width: 16px;
+  height: 16px;
+  right: 45%;
+  top: 5px
 }
 
 body {
