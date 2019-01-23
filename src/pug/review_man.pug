@@ -1,0 +1,101 @@
+---
+title: Slowave
+bodyClass:
+---
+extends shared/_layout
+block content
+
+    .container.review-man
+      h1.review-man__title Review Vehicle Details
+      .row.justify-content-center.p0.m0
+        form.review-man__update.col-12.row.p0(action="" method="post")
+          label.review-man__update-descr.col-3 Build Year
+            select.review-man__update-year(size="3" name="year[]")
+              option 2018
+              option 2017
+              option 2016
+              option 2015
+              option 2014
+              option 2013
+              option 2012
+              option 2011
+              option 2010
+              option 2009
+              option 1998
+          label.review-man__update-descr.col-3 Make
+            select.review-man__update-make(size="3" name="make[]")
+              option 2018
+              option 2017
+              option 2016
+              option 2015
+              option 2014
+              option 2013
+              option 2012
+              option 2011
+              option 2010
+              option 2009
+              option 1998
+          label.review-man__update-descr.col-4 Model
+            select.review-man__update-model(size="3" name="model[]")
+              option 2018
+              option 2017
+              option 2016
+              option 2015
+              option 2014
+              option 2013
+              option 2012
+              option 2011
+              option 2010
+              option 2009
+              option 1998
+          input.review-man__update-submit.col-2(type="submit" value="Update")
+        .row.col-12.review-man__details.justify-content-start.justify-content-sm-center.m0.p0
+          h3.review-man__details-title.col-12 Select the Variant
+          table.table.review-man__details-table
+            thead
+              tr
+                th.review-man__details-table-head.d-none.d-md-table-cell(scope="col") Variant
+                th.review-man__details-table-head.d-none.d-md-table-cell(scope="col") Engine
+                th.review-man__details-table-head.d-none.d-md-table-cell(scope="col") Transmission
+                th.review-man__details-table-head.d-none.d-md-table-cell(scope="col")
+            tbody
+              tr.d-none.d-md-table-row
+                td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
+                td T4 Cyl 1.8L
+                td 6 SP AUTO DIRECT SHIFT
+                td
+                  input(type="submit" value="Select")
+              tr.d-none.d-md-table-row
+                td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
+                td T4 Cyl 1.8L
+                td 6 SP AUTO DIRECT SHIFT
+                td
+                  input(type="submit" value="Select")
+              tr.d-none.d-md-table-row
+                td(scope="row") AU MY16 ALLTRACK 132 TSI 4D WAGON
+                td T4 Cyl 1.8L
+                td 6 SP AUTO DIRECT SHIFT
+                td
+                  input(type="submit" value="Select")
+          a.col-12.d-table-row.d-md-none.review-man__details-table-mob
+            span AU MY16 ALLTRACK 132 TSI 4D WAGON
+            br
+            span T4 Cyl 1.8L
+            br
+            span 6 SP AUTO DIRECT SHIFT
+            span.a.a__arrow-right
+          a.col-12.d-table-row.d-md-none.review-man__details-table-mob
+            span AU MY16 ALLTRACK 132 TSI 4D WAGON
+            br
+            span T4 Cyl 1.8L
+            br
+            span 6 SP AUTO DIRECT SHIFT
+            span.a.a__arrow-right
+          a.col-12.d-table-row.d-md-none.review-man__details-table-mob
+            span AU MY16 ALLTRACK 132 TSI 4D WAGON
+            br
+            span T4 Cyl 1.8L
+            br
+            span 6 SP AUTO DIRECT SHIFT
+            span.a.a__arrow-right
+              

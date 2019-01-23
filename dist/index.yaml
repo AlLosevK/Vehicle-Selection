@@ -1,0 +1,32 @@
+ProjectTitle: Maxxia
+
+PageList:
+- file: homepage.html
+  ready: 95
+
+- file: review_man.html
+  ready: 95
+
+- file: review_vin.html
+  ready: 95
+
+- file: custumer-details.html
+  ready: 95
+
+- file: vehicle-details.html
+  ready: 95
+
+- file: submit.html
+  ready: 95
+
+- file: admin-main.html
+  ready: 95
+
+- file: admin-search-result.html
+  ready: 95
+
+- file: admin-search.html
+  ready: 95
+
+- file: admin-vehicle.html
+  ready: 95

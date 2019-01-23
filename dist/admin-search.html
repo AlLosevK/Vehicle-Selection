@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- MADE WITH LOVE BY <> KHMELEVSKOY & ASSOCIATES </> www.khmelevskoy.co-->
+    <meta charset="utf-8">
+    <title>Slowave</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <!-- remove for production-->
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" media="all" href="css/app.css"><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body class="container por">
+    <div class="row vh100">
+      <button class="d-block d-md-none a a__menu"></button>
+      <aside class="sidebar col-4 col-md-2 d-none d-md-block">
+        <div class="row p0 m0 justify-content-center">
+          <div class="p0 m0 col-12">
+            <h2 class="col-12 p0 sidebar-title">Valuations Administration</h2><a class="col-12 p0 sidebar-link" href="#">Search for a Valuation</a><a class="col-12 p0 sidebar-link" href="#">Manage Email Addresses</a>
+          </div>
+        </div>
+      </aside>
+      <main class="col-12 col-md-10">
+        <div class="container admin-search p0">
+          <div class="row justify-content-start p0 m0 col-12">
+            <h1 class="admin-search-title col-12 p0">Search for a Valuation Request</h1>
+          </div>
+          <div class="row justify-content-start p0 m0 admin-search__vehicle col-12">
+            <h2 class="admin-search__vehicle-title col-12 p0">Search by Vehicle:</h2>
+            <form class="admin-search__vehicle-form col-12 col-md-7 row justify-content-end">
+              <div class="admin-search__vehicle-form-item col-12 p0 row">
+                <label class="col-6 col-md-5 p0" for="admin-search-vin">VIN (17 Digits):</label>
+                <input class="col-6 col-md-7" id="admin-search-vin" type="text" name="admin-search-vin">
+              </div><span class="col-12 justify-content-end">or</span>
+              <div class="admin-search__vehicle-form-item col-12 p0 row">
+                <label class="col-6 col-md-5 p0" for="admin-search-reg">Reg text:</label>
+                <input class="col-6 col-md-7" id="admin-search-reg" type="text" name="admin-search-reg">
+              </div>
+              <input class="admin-search__vehicle-form-submit" type="button" value="Search">
+            </form>
+          </div>
+          <div class="row justify-content-start p0 m0 admin-search__valuation bdb col-12">
+            <h2 class="admin-search__vehicle-title col-12 p0">Search by Valuation Date:</h2>
+            <form class="admin-search__valuation-form col-12 col-md-7 row justify-content-end">
+              <div class="admin-search__valuation-form-item col-12 p0 row">
+                <label class="col-6 col-md-5 p0" for="admin-search-date-from">VIN (17 Digits):</label>
+                <input class="col-6 col-md-7" id="admin-search-date-from" type="text" name="admin-search-date-from">
+              </div>
+              <div class="admin-search__valuation-form-item col-12 p0 row">
+                <label class="col-6 col-md-5 p0" for="admin-search-date-to">Reg text:</label>
+                <input class="col-6 col-md-7" id="admin-search-date-to" type="text" name="admin-search-date-to">
+              </div>
+              <input class="admin-search__valuation-form-submit" type="button" value="Search">
+            </form>
+          </div>
+          <div class="row justify-content-start p0 m0 admin-search__vehicle bdb col-12">
+            <h2 class="admin-search__vehicle-title col-12 p0">Search by Customer Name:</h2>
+            <form class="admin-search__vehicle-form col-12 col-md-7 row justify-content-end">
+              <div class="admin-search__vehicle-form-item col-12 p0 row">
+                <label class="col-6 col-md-5 p0" for="admin-search-customer-name">Name:</label>
+                <input class="col-6 col-md-7" id="admin-search-customer-name" type="text" name="admin-search-customer-date">
+              </div><span class="col-12 justify-content-end">or</span>
+              <div class="admin-search__vehicle-form-item col-12 p0 row">
+                <label class="col-6 col-md-5 p0" for="admin-search-customer-email">Email Address:</label>
+                <input class="col-6 col-md-7" id="admin-search-customer-email" type="email" name="admin-search-customer-email">
+              </div>
+              <input class="admin-search__vehicle-form-submit" type="button" value="Search">
+            </form>
+          </div>
+          <div class="row justify-content-start p0 m0 admin-search__vehicle bdb col-12">
+            <h2 class="admin-search__vehicle-title col-12 p0">Search by Consultant Name:</h2>
+            <form class="admin-search__vehicle-form col-12 col-md-7 row justify-content-end">
+              <div class="admin-search__vehicle-form-item col-12 p0 row">
+                <label class="col-6 col-md-5 p0" for="admin-search-consultant-name">Name:</label>
+                <input class="col-6 col-md-7" id="admin-search-consultant-name" type="text" name="admin-search-consultant-date">
+              </div>
+              <input class="admin-search__vehicle-form-submit" type="button" value="Search">
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

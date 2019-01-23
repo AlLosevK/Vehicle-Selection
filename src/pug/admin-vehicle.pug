@@ -1,0 +1,152 @@
+---
+title: Slowave
+bodyClass: container por
+---
+extends shared/_layoutAdmin
+block content
+
+  .container.justify-content-center
+    .row.justify-content-center
+      .admin-vehicle.row.justify-content-start.col-12.p0
+        .admin-vehicle__head
+          h1.admin-vehicle-title.p0.col-12.bdb Vehicle Details:
+          .row.bdb.admin-vehicle__customer-details.m0
+            .col-6.p0
+              h1.admin-vehicle__customer-details-header Customer Details:
+              .col-11.admin-vehicle__customer-details-info
+                span.admin-vehicle__customer-details-name John Smith
+                span.admin-vehicle__customer-details-state Surry Hills, NSW
+                span.admin-vehicle__customer-details-phone ph. 0419 888 888
+                span.admin-vehicle__customer-details-email.d-none.d-md-block email: john.smith@company.com.au
+                span.admin-vehicle__customer-details-email.d-none.d-sm-block.d-md-none email: john.smith</br>@company.com.au
+                span.admin-vehicle__customer-details-email.d-block.d-sm-none email: john.smith</br>@company<br>.com.au
+            .col-6.p0
+              h1.admin-vehicle__customer-details-header Consultant Details:
+              .col-11.admin-vehicle__customer-details-info
+                span.admin-vehicle__customer-details-name John Smith
+                span.admin-vehicle__customer-details-state Surry Hills, NSW
+                span.admin-vehicle__customer-details-phone ph. 0419 888 888
+                span.admin-vehicle__customer-details-email.d-none.d-md-block email: john.smith@company.com.au
+                span.admin-vehicle__customer-details-email.d-none.d-sm-block.d-md-none email: john.smith</br>@company.com.au
+                span.admin-vehicle__customer-details-email.d-block.d-sm-none email: john.smith</br>@company<br>.com.au
+            .col-12
+              h3.admin-vehicle__customer-details-notes Notes:
+              p.admin-vehicle__customer-details-note Customer is picking up his new car in 2 days, so would appreciate a quick turnaround on the price.
+        .admin-vehicle__main.col-12.details-info
+          h1.details-info-title.col-12 Vehicle details
+          .admin-vehicle__main__table.row.m0
+            .col-6.p0
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Make:
+                span.col-8.details-info__row-value Volkswagen
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Model:
+                span.col-8.details-info__row-value Golf R Wolfsburg Edition AU MY16
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Body:
+                span.col-8.details-info__row-value 4D Wagon
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg VIN:
+                span.col-8.details-info__row-value WVWZZZAUZGP549055
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Reg State:
+                span.col-8.details-info__row-value New South Wales
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Odometer:
+                span.col-8.details-info__row-value 39,456 kms
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Paint Colour:
+                span.col-8.details-info__row-value White
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Service Books:
+                span.col-8.details-info__row-value Yes
+            .col-6.p0
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Engine:
+                span.col-8.details-info__row-value Turbo 4 1984 cc TMPFI
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Transmission:
+                span.col-8.details-info__row-value 6 Sp Auto Direct Shift
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Build Year:
+                span.col-8.details-info__row-value 2015
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Reg Number:
+                span.col-8.details-info__row-value DBT09A
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Reg Expiry:
+                span.col-8.details-info__row-value 09/2018
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Compliance:
+                span.col-8.details-info__row-value 12/2015
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Interior Trim / Colour:
+                span.col-7.details-info__row-value Leather / Black
+              .row.details-info__row
+                span.col-12.col-md-4.details-info__row-arg Service History:
+                span.col-8.details-info__row-value Full Franchise
+          .admin-vehicle__main__info.bdb
+            .col-12.p0.admin-vehicle__main__info-item
+              span Options and/or Accessories:
+              p Optioned with genuine VW 19" alloy wheels and has VW "R" Floor Mats
+            .col-12.p0.admin-vehicle__main__info-item
+              span Previous Accident Damage:
+              span Yes
+            .col-12.p0.admin-vehicle__main__info-item
+              span General Condition:
+              p Previous accident damage where front bar was scraped in a car park has been fully repaired.  Otherwise car is in showroom condition with no gutter rash on rims and 4 brand new Michelin Pilot Sport tyres.
+          .row.col-12.admin-vehicle__details.justify-content-start.m0.p0.bdb
+            h3.admin-vehicle__details-title.col-12 Manage Buy Offers
+            .table-responsive
+              table.table.admin-search-result__table
+                thead
+                  tr
+                    th.admin-search-result__table-head(scope="col") Offer
+                    th.admin-search-result__table-head(scope="col") Buyer
+                    th.admin-search-result__table-head(scope="col") Time / Date Entered
+                tbody
+                  tr
+                    td(scope="row") $34,000
+                    td Wholesaler 1
+                    td 4:00pm 17/5/2018
+                  tr
+                    td(scope="row") $34,000
+                    td Wholesaler 1
+                    td 4:00pm 17/5/2018
+                  tr
+                    td(scope="row") $34,000
+                    td Wholesaler 1
+                    td 4:00pm 17/5/2018
+                  tr
+                    td(scope="row") $34,000
+                    td Wholesaler 1
+                    td 4:00pm 17/5/2018
+                  tr
+                    td(scope="row") $34,000
+                    td Wholesaler 1
+                    td 4:00pm 17/5/2018
+                  tr
+                    td(scope="row") $34,000
+                    td Wholesaler 1
+                    td 4:00pm 17/5/2018
+                  tr
+                    td(scope="row") $34,000
+                    td Wholesaler 1
+                    td 4:00pm 17/5/2018
+                  tr
+                    td(scope="row") $34,000
+                    td Wholesaler 1
+                    td 4:00pm 17/5/2018
+            h2.admin-vehicle__details-subtitle.col-12 Add New Offer:
+            form.admin-vehicle__add-offer.col-12.row(action="" method="post")
+              label.admin-vehicle__add-offer-descr.col-12.col-md-4 Buy offer
+                input.admin-vehicle__add-offer-offer(type="number")
+              label.admin-vehicle__add-offer-descr.col-12.col-md-4 Buy offer
+               input.admin-vehicle__add-offer-buyer(type="number")
+              input.admin-vehicle__add-offer-submit.col-12.col-md-4(type="button" value="Add Buy Offer")
+          .row.col-12.justify-content-center.p0.m0
+            h2.admin-vehicle__details-subtitle.col-12 Send Offer to Customer
+            form.admin-vehicle__update.col-12.row.p0(action="" method="post")
+              label.admin-vehicle__update-descr.col-12.col-md-6 Buy offer (inc GST):
+                input.admin-vehicle__update-time(type="number")
+              input.admin-vehicle__submit.col-12.col-md-6(type="button" value="Send Offer to Consultant")

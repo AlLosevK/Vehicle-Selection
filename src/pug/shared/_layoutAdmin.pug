@@ -1,0 +1,19 @@
+include _mixins
+doctype html
+html(lang="en")
+  head
+    include _head
+
+  body(class=bodyClass)
+    .row.vh100
+      button.d-block.d-md-none.a.a__menu
+      include ../components/_sidebar
+
+      main.col-12.col-md-10
+        block content
+
+    block footer
+      include ../components/_footer
+
+    block scripts
+      include _scripts
