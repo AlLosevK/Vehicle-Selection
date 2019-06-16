@@ -6456,6 +6456,9 @@ input[type="radio"] {
 }
 
 @media screen and (max-width: 575px) {
+  .p0 {
+    padding: 0 5px;
+  }
   main {
     padding: 0 10px;
   }
